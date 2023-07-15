@@ -34,3 +34,38 @@ header {
     text-decoration: none;
   }
 }
+
+.teams-container {
+  background-color: rgb(234, 197, 34);
+  & h2 {
+    padding: 30px 20px;
+    letter-spacing: 2px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.teams , .squads {
+  border: 1px solid red;
+  width: 48%;
+}
+
+.teams {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  & div {
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 5px;
+    & img {
+      width: 150px;
+      height: 100px;
+      object-fit: cover;
+      border: 1px solid black;
+    }
+  }
+}
