@@ -5,8 +5,14 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --azul: rgb(29 18 195);
+  --roxo: rgb(109, 18, 195);
+  --vermelho: rgb(196, 48, 43);
+}
+
 header {
-  background-color: rgb(109, 18, 195);
+  background-color: var(--azul);
 }
 
 .container-header {
@@ -15,6 +21,7 @@ header {
   justify-content: center;
   padding: 50px;
   text-align: center;
+
   & .logo {
     width: 100px;
     border-radius: 100%;
@@ -25,7 +32,8 @@ header {
     width: 80%;
   }
 
-  & h1 , h2 {
+  & h1,
+  h2 {
     margin-top: 20px;
     color: white;
     font-size: 32px;
@@ -53,7 +61,8 @@ header {
   justify-content: space-between;
 }
 
-.teams , .squads {
+.teams,
+.squads {
   border: 1px solid red;
   width: 48%;
 }
