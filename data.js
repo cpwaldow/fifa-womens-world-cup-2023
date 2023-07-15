@@ -61,7 +61,7 @@ const teams = [
         'Nycole',
         'Gabi Nunes',
       ],
-      coach: '',
+      coach: 'Pia Sundhage',
     },
   },
   {
