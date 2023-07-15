@@ -4,3 +4,33 @@
   border: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
+
+header {
+  background-color: rgb(109, 18, 195);
+}
+
+.container-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  & .logo {
+    width: 100px;
+    border-radius: 100%;
+    margin: 20px;
+  }
+
+  & h1 , h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 32px;
+  }
+}
+
+.where-to-watch {
+  text-align: center;
+  & a {
+    color: red;
+    text-decoration: none;
+  }
+}
