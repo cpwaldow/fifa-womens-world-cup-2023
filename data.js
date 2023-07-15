@@ -2,6 +2,7 @@ const teams = [
   {
     name: 'Argentina',
     capital: 'Buenos Aires',
+    code: 'ARG',
     region: 'Americas',
     population: 45376763,
     flag: 'https://flagcdn.com/ar.svg',
@@ -39,6 +40,7 @@ const teams = [
   {
     name: 'Australia',
     capital: 'Canberra',
+    code: 'AUS',
     region: 'Oceania',
     population: 25687041,
     flag: 'https://flagcdn.com/au.svg',
@@ -86,6 +88,7 @@ const teams = [
   {
     name: 'Brazil',
     capital: 'Brasília',
+    code: 'BRA',
     region: 'Americas',
     population: 212559409,
     flag: 'https://flagcdn.com/br.svg',
@@ -123,6 +126,7 @@ const teams = [
   {
     name: 'Canada',
     capital: 'Ottawa',
+    code: 'CAN',
     region: 'Americas',
     population: 38005238,
     flag: 'https://flagcdn.com/ca.svg',
@@ -162,6 +166,7 @@ const teams = [
   {
     name: 'China',
     capital: 'Beijing',
+    code: 'CHN',
     region: 'Asia',
     population: 1402112000,
     flag: 'https://flagcdn.com/cn.svg',
@@ -199,6 +204,7 @@ const teams = [
   {
     name: 'Colombia',
     capital: 'Bogotá',
+    code: 'COL',
     region: 'Americas',
     population: 50882884,
     flag: 'https://flagcdn.com/co.svg',
@@ -236,6 +242,7 @@ const teams = [
   {
     name: 'Costa Rica',
     capital: 'San José',
+    code: 'CRC',
     region: 'Americas',
     population: 5094114,
     flag: 'https://flagcdn.com/cr.svg',
@@ -273,6 +280,7 @@ const teams = [
   {
     name: 'Denmark',
     capital: 'Copenhagen',
+    code: 'DNK',
     region: 'Europe',
     population: 5831404,
     flag: 'https://flagcdn.com/dk.svg',
@@ -314,6 +322,7 @@ const teams = [
   {
     name: 'England',
     capital: 'London',
+    code: 'ENG',
     region: 'Europe',
     population: 67215293,
     flag: 'https://flagcdn.com/gb.svg',
@@ -351,6 +360,7 @@ const teams = [
   {
     name: 'France',
     capital: 'Paris',
+    code: 'FRA',
     region: 'Europe',
     population: 67391582,
     flag: 'https://flagcdn.com/fr.svg',
@@ -392,6 +402,7 @@ const teams = [
   {
     name: 'Germany',
     capital: 'Berlin',
+    code: 'GER',
     region: 'Europe',
     population: 83240525,
     flag: 'https://flagcdn.com/de.svg',
@@ -429,6 +440,7 @@ const teams = [
   {
     name: 'Haiti',
     capital: 'Port-au-Prince',
+    code: 'HAI',
     region: 'Americas',
     population: 11402533,
     flag: 'https://flagcdn.com/ht.svg',
@@ -466,6 +478,7 @@ const teams = [
   {
     name: 'Italy',
     capital: 'Rome',
+    code: 'ITA',
     region: 'Europe',
     population: 59554023,
     flag: 'https://flagcdn.com/it.svg',
@@ -503,6 +516,7 @@ const teams = [
   {
     name: 'Jamaica',
     capital: 'Kingston',
+    code: 'JAM',
     region: 'Americas',
     population: 2961161,
     flag: 'https://flagcdn.com/jm.svg',
@@ -540,6 +554,7 @@ const teams = [
   {
     name: 'Japan',
     capital: 'Tokyo',
+    code: 'JPN',
     region: 'Asia',
     population: 125836021,
     flag: 'https://flagcdn.com/jp.svg',
@@ -572,6 +587,7 @@ const teams = [
   {
     name: 'Korea Republic',
     capital: 'Seoul',
+    code: 'KOR',
     region: 'Asia',
     population: 51780579,
     flag: 'https://flagcdn.com/kr.svg',
@@ -609,6 +625,7 @@ const teams = [
   {
     name: 'Morocco',
     capital: 'Rabat',
+    code: 'MAR',
     region: 'Africa',
     population: 36910558,
     flag: 'https://flagcdn.com/ma.svg',
@@ -651,6 +668,7 @@ const teams = [
   {
     name: 'Netherlands',
     capital: 'Amsterdam',
+    code: 'NLD',
     region: 'Europe',
     population: 17441139,
     flag: 'https://flagcdn.com/nl.svg',
@@ -699,6 +717,7 @@ const teams = [
   {
     name: 'New Zealand',
     capital: 'Wellington',
+    code: 'NZL',
     region: 'Oceania',
     population: 5084300,
     flag: 'https://flagcdn.com/nz.svg',
@@ -736,6 +755,7 @@ const teams = [
   {
     name: 'Nigeria',
     capital: 'Abuja',
+    code: 'NGA',
     region: 'Africa',
     population: 206139587,
     flag: 'https://flagcdn.com/ng.svg',
@@ -773,6 +793,7 @@ const teams = [
   {
     name: 'Norway',
     capital: 'Oslo',
+    code: 'NOR',
     region: 'Europe',
     population: 5379475,
     flag: 'https://flagcdn.com/no.svg',
@@ -811,6 +832,7 @@ const teams = [
   {
     name: 'Panama',
     capital: 'Panama City',
+    code: 'PAN',
     region: 'Americas',
     population: 4314768,
     flag: 'https://flagcdn.com/pa.svg',
@@ -844,6 +866,7 @@ const teams = [
   {
     name: 'Philippines',
     capital: 'Manila',
+    code: 'PHL',
     region: 'Asia',
     population: 109581085,
     flag: 'https://flagcdn.com/ph.svg',
@@ -881,6 +904,7 @@ const teams = [
   {
     name: 'Portugal',
     capital: 'Lisbon',
+    code: 'PRT',
     region: 'Europe',
     population: 10305564,
     flag: 'https://flagcdn.com/pt.svg',
@@ -918,6 +942,7 @@ const teams = [
   {
     name: 'Ireland',
     capital: 'Dublin',
+    code: 'IRL',
     region: 'Europe',
     population: 4994724,
     flag: 'https://flagcdn.com/ie.svg',
@@ -955,6 +980,7 @@ const teams = [
   {
     name: 'South Africa',
     capital: 'Pretoria',
+    code: 'ZAF',
     region: 'Africa',
     population: 59308690,
     flag: 'https://flagcdn.com/za.svg',
@@ -992,6 +1018,7 @@ const teams = [
   {
     name: 'Spain',
     capital: 'Madrid',
+    code: 'ESP',
     region: 'Europe',
     population: 47351567,
     flag: 'https://flagcdn.com/es.svg',
@@ -1029,6 +1056,7 @@ const teams = [
   {
     name: 'Sweden',
     capital: 'Stockholm',
+    code: 'SWE',
     region: 'Europe',
     population: 10353442,
     flag: 'https://flagcdn.com/se.svg',
@@ -1066,6 +1094,7 @@ const teams = [
   {
     name: 'Switzerland',
     capital: 'Bern',
+    code: 'CHE',
     region: 'Europe',
     population: 8636896,
     flag: 'https://flagcdn.com/ch.svg',
@@ -1103,6 +1132,7 @@ const teams = [
   {
     name: 'United States',
     capital: 'Washington, D.C.',
+    code: 'USA',
     region: 'Americas',
     population: 329484123,
     flag: 'https://flagcdn.com/us.svg',
@@ -1140,6 +1170,7 @@ const teams = [
   {
     name: 'Vietnam',
     capital: 'Hanoi',
+    code: 'VNM',
     region: 'Asia',
     population: 97338583,
     flag: 'https://flagcdn.com/vn.svg',
@@ -1177,6 +1208,7 @@ const teams = [
   {
     name: 'Zambia',
     capital: 'Lusaka',
+    code: 'ZMB',
     region: 'Africa',
     population: 18383956,
     flag: 'https://flagcdn.com/zm.svg',
