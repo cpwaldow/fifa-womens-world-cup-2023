@@ -2,6 +2,4 @@
 
 ## Escalações
 
-[Escalação da Argentina](https://www.uol.com.br/esporte/ultimas-noticias/afp/2023/07/08/argentina-divulga-lista-de-convocadas-para-copa-do-mundo-feminina.htm)
-
-[Escalação do Brasil](https://ge.globo.com/futebol/copa-do-mundo-feminina/noticia/2023/07/04/veja-a-numeracao-da-selecao-feminina-na-copa-do-mundo-2023.ghtml)
+As escalações de todas as jogadas convocadas foram utilizadas do site [GOAL](https://www.goal.com/br/listas/todas-convocadas-copa-do-mundo-feminina-2023/bltc5ef6e20baae260c#csd1cb4a0eb7e7d5a2)
