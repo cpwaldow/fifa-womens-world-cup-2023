@@ -5,7 +5,12 @@ const teams = [
     region: 'Americas',
     population: 45376763,
     flag: 'https://flagcdn.com/ar.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Australia',
@@ -13,7 +18,12 @@ const teams = [
     region: 'Oceania',
     population: 25687041,
     flag: 'https://flagcdn.com/au.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Brazil',
@@ -21,7 +31,12 @@ const teams = [
     region: 'Americas',
     population: 212559409,
     flag: 'https://flagcdn.com/br.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Canada',
@@ -29,7 +44,12 @@ const teams = [
     region: 'Americas',
     population: 38005238,
     flag: 'https://flagcdn.com/ca.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'China',
@@ -37,7 +57,12 @@ const teams = [
     region: 'Asia',
     population: 1402112000,
     flag: 'https://flagcdn.com/cn.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Colombia',
@@ -45,7 +70,12 @@ const teams = [
     region: 'Americas',
     population: 50882884,
     flag: 'https://flagcdn.com/co.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Costa Rica',
@@ -53,7 +83,12 @@ const teams = [
     region: 'Americas',
     population: 5094114,
     flag: 'https://flagcdn.com/cr.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Denmark',
@@ -61,7 +96,12 @@ const teams = [
     region: 'Europe',
     population: 5831404,
     flag: 'https://flagcdn.com/dk.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'England',
@@ -69,7 +109,12 @@ const teams = [
     region: 'Europe',
     population: 67215293,
     flag: 'https://flagcdn.com/gb.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'France',
@@ -77,7 +122,12 @@ const teams = [
     region: 'Europe',
     population: 67391582,
     flag: 'https://flagcdn.com/fr.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Germany',
@@ -85,7 +135,12 @@ const teams = [
     region: 'Europe',
     population: 83240525,
     flag: 'https://flagcdn.com/de.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Haiti',
@@ -93,7 +148,12 @@ const teams = [
     region: 'Americas',
     population: 11402533,
     flag: 'https://flagcdn.com/ht.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Italy',
@@ -101,7 +161,12 @@ const teams = [
     region: 'Europe',
     population: 59554023,
     flag: 'https://flagcdn.com/it.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Jamaica',
@@ -109,7 +174,12 @@ const teams = [
     region: 'Americas',
     population: 2961161,
     flag: 'https://flagcdn.com/jm.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Japan',
@@ -117,7 +187,12 @@ const teams = [
     region: 'Asia',
     population: 125836021,
     flag: 'https://flagcdn.com/jp.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Korea Republic',
@@ -125,7 +200,12 @@ const teams = [
     region: 'Asia',
     population: 51780579,
     flag: 'https://flagcdn.com/kr.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Morocco',
@@ -133,7 +213,12 @@ const teams = [
     region: 'Africa',
     population: 36910558,
     flag: 'https://flagcdn.com/ma.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Netherlands',
@@ -141,7 +226,12 @@ const teams = [
     region: 'Europe',
     population: 17441139,
     flag: 'https://flagcdn.com/nl.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'New Zealand',
@@ -149,7 +239,12 @@ const teams = [
     region: 'Oceania',
     population: 5084300,
     flag: 'https://flagcdn.com/nz.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Nigeria',
@@ -157,7 +252,12 @@ const teams = [
     region: 'Africa',
     population: 206139587,
     flag: 'https://flagcdn.com/ng.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Norway',
@@ -165,7 +265,12 @@ const teams = [
     region: 'Europe',
     population: 5379475,
     flag: 'https://flagcdn.com/no.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Panama',
@@ -173,7 +278,12 @@ const teams = [
     region: 'Americas',
     population: 4314768,
     flag: 'https://flagcdn.com/pa.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Philippines',
@@ -181,7 +291,12 @@ const teams = [
     region: 'Asia',
     population: 109581085,
     flag: 'https://flagcdn.com/ph.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Portugal',
@@ -189,7 +304,12 @@ const teams = [
     region: 'Europe',
     population: 10305564,
     flag: 'https://flagcdn.com/pt.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Ireland',
@@ -197,7 +317,12 @@ const teams = [
     region: 'Europe',
     population: 4994724,
     flag: 'https://flagcdn.com/ie.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'South Africa',
@@ -205,7 +330,12 @@ const teams = [
     region: 'Africa',
     population: 59308690,
     flag: 'https://flagcdn.com/za.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Spain',
@@ -213,7 +343,12 @@ const teams = [
     region: 'Europe',
     population: 47351567,
     flag: 'https://flagcdn.com/es.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Sweden',
@@ -221,7 +356,12 @@ const teams = [
     region: 'Europe',
     population: 10353442,
     flag: 'https://flagcdn.com/se.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Switzerland',
@@ -229,7 +369,12 @@ const teams = [
     region: 'Europe',
     population: 8636896,
     flag: 'https://flagcdn.com/ch.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'United States',
@@ -237,7 +382,12 @@ const teams = [
     region: 'Americas',
     population: 329484123,
     flag: 'https://flagcdn.com/us.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Vietnam',
@@ -245,7 +395,12 @@ const teams = [
     region: 'Asia',
     population: 97338583,
     flag: 'https://flagcdn.com/vn.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
   {
     name: 'Zambia',
@@ -253,7 +408,12 @@ const teams = [
     region: 'Africa',
     population: 18383956,
     flag: 'https://flagcdn.com/zm.svg',
-    players: [],
+    players: {
+      goalkeeper: [],
+      defender: [],
+      midfield: [],
+      coach: '',
+    },
   },
 ];
 
