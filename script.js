@@ -14,6 +14,7 @@ const handleDinamicText = (element, text) => {
 const handleCreateElement = (country) => {
   const createDiv = document.createElement('div');
   const createImg = document.createElement('img');
+  createDiv.classList.add(country.code);
   createImg.src = country.flag;
   createDiv.appendChild(createImg);
   createDiv.appendChild(handleDinamicText('p', country.name));
@@ -34,4 +35,27 @@ const handleTeams = () => {
     teamsEl.appendChild(handleCreateElement(element));
   }
 };
-handleTeams();
+
+const handleClickSquads = (event) => {
+  const elementClass = event.target.parentElement.className;
+  let country;
+  for (let index = 0; index < teams.length; index++) {
+    const element = teams[index];
+    if (element.code === elementClass) {
+      country = element;
+    }
+  }
+  console.log(country);
+};
+
+const handleSquads = () => {
+  const countries = document.querySelectorAll('.teams > div');
+  for (let index = 0; index < countries.length; index += 1) {
+    countries[index].addEventListener('click', handleClickSquads);
+  }
+};
+
+window.onload = () => {
+  handleTeams();
+  handleSquads();
+};
