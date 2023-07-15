@@ -26,3 +26,12 @@ const handleCreateElement = (country) => {
   );
   return createDiv;
 };
+
+const handleTeams = () => {
+  const teamsEl = document.querySelector('.teams');
+  for (let index = 0; index < teams.length; index += 1) {
+    const element = teams[index];
+    teamsEl.appendChild(handleCreateElement(element));
+  }
+};
+handleTeams();
