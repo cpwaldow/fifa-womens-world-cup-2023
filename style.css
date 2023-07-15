@@ -13,14 +13,19 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 50px;
+  text-align: center;
   & .logo {
     width: 100px;
     border-radius: 100%;
     margin: 20px;
   }
 
+  & h1 {
+    width: 80%;
+  }
+
   & h1 , h2 {
-    text-align: center;
     margin-top: 20px;
     color: white;
     font-size: 32px;
