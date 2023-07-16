@@ -4,7 +4,8 @@
   "description": "",
   "main": "script.js",
   "scripts": {
-    "lint": "eslint .eslintrc.js ."
+    "lint": "eslint .eslintrc.js .",
+    "stylelint": "stylelint '**/*.css'"
   },
   "repository": {
     "type": "git",
