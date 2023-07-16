@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/cpwaldow/fifa-womens-world-cup-2023/issues"
   },
-  "homepage": "https://github.com/cpwaldow/fifa-womens-world-cup-2023#readme"
+  "homepage": "https://github.com/cpwaldow/fifa-womens-world-cup-2023#readme",
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
 }
