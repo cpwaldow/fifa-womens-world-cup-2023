@@ -28,6 +28,32 @@ const handleCreateElement = (country) => {
   return createDiv;
 };
 
+const handleSubListPlayer = (positionArr) => {
+  const createSubList = document.createElement('ul');
+  for (let index = 0; index < positionArr.length; index++) {
+    const element = positionArr[index];
+    createSubList.appendChild(handleDinamicText('li', element));
+  }
+  return createSubList;
+};
+
+const handleRenderSquads = (squad) => {
+  const squadsElement = document.querySelector('.squads');
+  const createUl = document.createElement('ul');
+  const playersKeys = Object.keys(squad.players);
+
+  for (let index = 0; index < playersKeys.length; index++) {
+    const element = playersKeys[index];
+    createUl.appendChild(handleDinamicText('li', element));
+    if (Array.isArray(squad.players[element])) {
+      createUl.appendChild(handleSubListPlayer(squad.players[element]));
+    } else {
+      createUl.appendChild(handleDinamicText('li', squad.players[element]));
+    }
+  }
+  squadsElement.appendChild(createUl);
+};
+
 const handleTeams = () => {
   const teamsEl = document.querySelector('.teams');
   for (let index = 0; index < teams.length; index += 1) {
@@ -38,6 +64,7 @@ const handleTeams = () => {
 
 const handleClickSquads = (event) => {
   const elementClass = event.target.parentElement.className;
+  const squadsEl = document.querySelector('.squads');
   let country;
   for (let index = 0; index < teams.length; index++) {
     const element = teams[index];
@@ -45,7 +72,8 @@ const handleClickSquads = (event) => {
       country = element;
     }
   }
-  console.log(country);
+  squadsEl.innerHTML = '';
+  handleRenderSquads(country);
 };
 
 const handleSquads = () => {
