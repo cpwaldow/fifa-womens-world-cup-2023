@@ -45,6 +45,14 @@ header {
   text-align: center;
   background-color: orange;
   padding: 50px;
+
+  & p {
+    width: 400px;
+    margin: 0 auto;
+    color: rgb(1, 1, 1);
+    font-size: 20px;
+  }
+
   & ul {
     display: flex;
     justify-content: space-between;
