@@ -5,9 +5,12 @@ const formatCompactNumber = (number) => {
   return formatter.format(number);
 };
 
-const handleDinamicText = (element, text) => {
+const handleDinamicText = (element, text, nameClass) => {
   const createEl = document.createElement(element);
   createEl.innerText = text;
+  if (nameClass) {
+    createEl.classList.add(nameClass);
+  }
   return createEl;
 };
 
@@ -44,7 +47,8 @@ const handleRenderSquads = (squad) => {
 
   for (let index = 0; index < playersKeys.length; index++) {
     const element = playersKeys[index];
-    createUl.appendChild(handleDinamicText('li', element));
+    createUl.appendChild(handleDinamicText('li', element, 'position'));
+    console.log(element);
     if (Array.isArray(squad.players[element])) {
       createUl.appendChild(handleSubListPlayer(squad.players[element]));
     } else {
