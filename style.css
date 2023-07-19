@@ -101,6 +101,11 @@ header {
   margin-top: 50px;
 }
 
+.squads {
+  background-color: green;
+  color: white;
+}
+
 .select-team-title {
   margin-top: 30px;
   text-align: center;
