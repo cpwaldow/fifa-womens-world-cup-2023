@@ -97,8 +97,13 @@ header {
 
 .teams,
 .squads {
-  border: 1px solid red;
   width: 48%;
+  margin-top: 50px;
+}
+
+.select-team-title {
+  margin-top: 30px;
+  text-align: center;
 }
 
 .teams {
@@ -110,6 +115,8 @@ header {
     margin-bottom: 20px;
     text-align: center;
     margin: 5px;
+    cursor: pointer;
+
     & img {
       width: 150px;
       height: 100px;
