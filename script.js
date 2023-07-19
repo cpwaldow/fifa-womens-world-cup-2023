@@ -31,11 +31,25 @@ const handleCreateElement = (country) => {
   return createDiv;
 };
 
+const createPlayersImg = (imgSrc) => {
+  const img = document.createElement('img');
+  img.src = imgSrc;
+  img.classList.add('player-img');
+  return img;
+};
+
+const handlePlayers = (player) => {
+  const div = document.createElement('div');
+  div.appendChild(createPlayersImg(player.img));
+  div.appendChild(handleDinamicText('li', player.name));
+  return div;
+};
+
 const handleSubListPlayer = (positionArr) => {
   const createSubList = document.createElement('ul');
   for (let index = 0; index < positionArr.length; index++) {
     const element = positionArr[index];
-    createSubList.appendChild(handleDinamicText('li', element));
+    createSubList.appendChild(handlePlayers(element));
   }
   return createSubList;
 };
@@ -48,7 +62,6 @@ const handleRenderSquads = (squad) => {
   for (let index = 0; index < playersKeys.length; index++) {
     const element = playersKeys[index];
     createUl.appendChild(handleDinamicText('li', element, 'position'));
-    console.log(element);
     if (Array.isArray(squad.players[element])) {
       createUl.appendChild(handleSubListPlayer(squad.players[element]));
     } else {

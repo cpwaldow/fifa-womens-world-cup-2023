@@ -131,6 +131,10 @@ header {
   }
 }
 
+.player-img {
+  width: 100px;
+}
+
 .squads {
   padding: 10px;
   & .position {
