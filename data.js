@@ -101,7 +101,7 @@ const teams = [
         'Kathellen',
         'Rafaelle',
         'Lauren',
-        'Mônica',
+        'Mônica Hickman',
       ],
       midfield: [
         'Luana',
