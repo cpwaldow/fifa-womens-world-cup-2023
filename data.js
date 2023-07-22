@@ -7,34 +7,110 @@ const teams = [
     population: 45376763,
     flag: 'https://flagcdn.com/ar.svg',
     players: {
-      goalkeeper: ['Vanina Correa', 'Lara Esponda', 'Abigail Chaves'],
+      goalkeeper: [
+        {
+          name: 'Vanina Correa',
+          img: 'https://digitalhub.fifa.com/transform/cd057c0d-cc00-4132-937f-6b69df5dedad/',
+        },
+        {
+          name: 'Lara Esponda',
+          img: 'https://digitalhub.fifa.com/transform/19fb48a4-8333-4764-8e68-2ee76deb065f/',
+        },
+        {
+          name: 'Abigail Chaves',
+          img: 'https://digitalhub.fifa.com/transform/9c7fa3ac-b7aa-476b-bf94-adc5878c9c17/',
+        },
+      ],
       defender: [
-        'Adriana Sachs',
-        'Eliana Stábile',
-        'Julieta Cruz',
-        'Alda Cometti',
-        'Sophia Braun',
-        'Miriam Mayorga',
-        'Gabriela Chávez',
+        {
+          name: 'Adriana Sachs',
+          img: 'https://digitalhub.fifa.com/transform/5992d863-6a81-407b-99fd-4d15ad0ebb25/',
+        },
+        {
+          name: 'Eliana Stábile',
+          img: 'https://digitalhub.fifa.com/transform/f5ea9e38-bbb4-481a-b7bd-25af0cfbba42/',
+        },
+        {
+          name: 'Julieta Cruz',
+          img: 'https://digitalhub.fifa.com/transform/f4dcaa27-089a-480a-a535-dbdc0ddf0395/',
+        },
+        {
+          name: 'Alda Cometti',
+          img: 'https://digitalhub.fifa.com/transform/7f4a693b-87e0-4c5c-a78c-f20b65f3efff/',
+        },
+        {
+          name: 'Sophia Braun',
+          img: 'https://digitalhub.fifa.com/transform/9cdb8694-af74-4bc4-9f64-2e834fdf7e8c/',
+        },
+        {
+          name: 'Miriam Mayorga',
+          img: 'https://digitalhub.fifa.com/transform/3c8b10f8-a645-4466-a587-737667de48d0/',
+        },
+        {
+          name: 'Gabriela Chávez',
+          img: 'https://digitalhub.fifa.com/transform/a2c9cdab-c911-441a-99ec-e5ca50f5d341/',
+        },
       ],
       midfield: [
-        'Vanessa Santana',
-        'Romina Núñez',
-        'Daiana Faltán',
-        'Dalila Ippolito',
-        'Lorena Benítez',
-        'Camila Gómez Ares',
-        'Estefanía Banini',
+        {
+          name: 'Vanessa Santana',
+          img: 'https://digitalhub.fifa.com/transform/af9ff8ce-6046-4d8a-bb39-145900b61125/',
+        },
+        {
+          name: 'Romina Núñez',
+          img: 'https://digitalhub.fifa.com/transform/1b78dd4c-4675-41be-9a85-c500acd48d63/',
+        },
+        {
+          name: 'Daiana Faltán',
+          img: 'https://digitalhub.fifa.com/transform/2b674faa-44e5-4e2e-acf8-f2c95e4d117c/',
+        },
+        {
+          name: 'Dalila Ippolito',
+          img: 'https://digitalhub.fifa.com/transform/d3b46f41-1cbc-40a1-895a-6aab1c0d897e/',
+        },
+        {
+          name: 'Florencia',
+          img: 'https://digitalhub.fifa.com/transform/a7887241-c1fe-4956-8e3c-1ce7a1af0144/',
+        },
+        {
+          name: 'Lorena Benítez',
+          img: 'https://digitalhub.fifa.com/transform/290870a5-5051-404c-a524-6be80d2965f0/',
+        },
+        {
+          name: 'Camila Gómez Ares',
+          img: 'https://digitalhub.fifa.com/transform/85180595-ee8a-4c85-bc93-4c174b42cce8/',
+        },
       ],
       attacker: [
-        'Paulina Gramaglia',
-        'Yamila Rodríguez',
-        'Florencia Bonsegundo',
-        'Mariana Larroquette',
-        'Chiara Singarella',
-        'Érica Lonigro',
+        {
+          name: 'Estefanía Banini',
+          img: 'https://digitalhub.fifa.com/transform/272c66b5-5d9c-468f-a3a8-6bda455e68d3/',
+        },
+        {
+          name: 'Paulina Gramaglia',
+          img: 'https://digitalhub.fifa.com/transform/06f656a5-9c29-44f7-85a3-13a54128c5af/',
+        },
+        {
+          name: 'Yamila Rodríguez',
+          img: 'https://digitalhub.fifa.com/transform/1274a494-2e72-456f-8473-193c6904cc79/',
+        },
+        {
+          name: 'Mariana Larroquette',
+          img: 'https://digitalhub.fifa.com/transform/8a5656fe-58f9-42e7-804c-a9c071f4c12a/',
+        },
+        {
+          name: 'Chiara Singarella',
+          img: 'https://digitalhub.fifa.com/transform/53d06ecb-b1bd-4974-8878-39fe7032f5f0/',
+        },
+        {
+          name: 'Érica Lonigro',
+          img: 'https://digitalhub.fifa.com/transform/560f0948-5d09-4846-8edf-a0ede9051999/',
+        },
       ],
-      coach: 'Germán Portanova',
+      coach: {
+        name: 'Germán Portanova',
+        img: 'https://digitalhub.fifa.com/transform/aa8f9cdc-eef0-446e-8a6d-33088d0eb508/Argentina-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
