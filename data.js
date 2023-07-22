@@ -122,43 +122,109 @@ const teams = [
     flag: 'https://flagcdn.com/au.svg',
     players: {
       goalkeeper: [
-        'Mackenzie Arnold',
-        'Teegan Micah',
-        'Jada Whyman',
-        'Lydia Williams',
+        {
+          name: 'Lydia WILLIAMS',
+          img: 'https://digitalhub.fifa.com/transform/bc19f8c8-597a-42df-ba80-9ad8f10ac456/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Teagan MICAH',
+          img: 'https://digitalhub.fifa.com/transform/9b6cea0f-4295-4943-8a72-3b27e81fc10a/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mackenzie ARNOLD',
+          img: 'https://digitalhub.fifa.com/transform/b6b29769-961c-4adc-9a98-61a59f1c5a4c/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       defender: [
-        'Ellie Carpenter',
-        'Steph Catley',
-        'Charlotte Grant',
-        'Clare Hunt',
-        'Alanna Kennedy',
-        'Aivi Luik',
-        'Courtney Nevin',
-        'Clare Polkinghorne',
+        {
+          name: 'Courtney NEVIN',
+          img: 'https://digitalhub.fifa.com/transform/6afaa153-7e02-4d90-b77d-9aab28c7a70d/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Aivi LUIK',
+          img: 'https://digitalhub.fifa.com/transform/66d45f36-5caf-4d79-a0cc-5718bef4ce5d/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Clare POLKINGHORNE',
+          img: 'https://digitalhub.fifa.com/transform/f32a1b18-0c12-4176-8154-f5befaddff34/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Steph CATLEY',
+          img: 'https://digitalhub.fifa.com/transform/eee94407-004c-43a1-93d8-f1cdeb060d1f/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alanna KENNEDY',
+          img: 'https://digitalhub.fifa.com/transform/432742d5-0668-415d-a612-e6d365e3fe9c/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Clare HUNT',
+          img: 'https://digitalhub.fifa.com/transform/84459cd5-7ca8-4a03-8591-a13ff96b0c2a/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ellie CARPENTER',
+          img: 'https://digitalhub.fifa.com/transform/48e30b09-c895-44aa-899a-9af3af2081f3/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Charlotte GRANT',
+          img: 'https://www.canva.com/design/DAFpZbzk0GY/',
+        },
       ],
       midfield: [
-        'Alex Chidiac',
-        'Kyra Cooney-Cross',
-        'Katrina Gorry',
-        'Chloe Logarzo',
-        'Amy Sayer',
-        'Emily van Egmond',
-        'Clare Wheeler',
-        'Tameka Yallop',
+        {
+          name: 'Clare WHEELER',
+          img: 'https://digitalhub.fifa.com/transform/63795416-596c-4ee2-a356-3268d74b4c13/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alex CHIDIAC',
+          img: 'https://digitalhub.fifa.com/transform/cbf0979c-2b4b-4ce9-ac5f-3b1f71960ae8/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Emily VAN EGMOND',
+          img: 'https://digitalhub.fifa.com/transform/85a814cb-17cb-477b-bcd4-7d2de4b4d955/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Tameka YALLOP',
+          img: 'https://digitalhub.fifa.com/transform/edf41884-c7c6-477f-be4a-9c2efb4c86a1/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katrina GORRY',
+          img: 'https://digitalhub.fifa.com/transform/12c6127b-0e2d-4554-81cc-f84f31d9a20c/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kyra COONEY-CROSS',
+          img: 'https://digitalhub.fifa.com/transform/a0be21b4-0ae4-4937-a23d-5eed4ce5a4fd/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Larissa Crummer',
-        'Caitlin Foord',
-        'Mary Fowler',
-        'Emily Gielnik',
-        'Sam Kerr',
-        'Hayley Raso',
-        'Remy Siemsen',
-        'Kyah Simon',
-        'Cortnee Vine',
+        {
+          name: 'Cortnee VINE',
+          img: 'https://digitalhub.fifa.com/transform/53a840eb-fe3c-4385-a701-c6122af058d8/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Caitlin FOORD',
+          img: 'https://digitalhub.fifa.com/transform/a0229a12-406e-442f-85d1-0ed5e07cd12e/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mary FOWLER',
+          img: 'https://digitalhub.fifa.com/transform/f113fc62-ccfd-42b2-96f5-97129faff97e/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hayley RASO',
+          img: 'https://digitalhub.fifa.com/transform/3553656d-80eb-4560-813e-d845b2447510/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kyah SIMON',
+          img: 'https://digitalhub.fifa.com/transform/c6e1ea68-a1c1-45dd-b8bf-833c1883793b/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sam KERR',
+          img: 'https://digitalhub.fifa.com/transform/7b61165a-5f23-4086-b8d5-6f767a8216bd/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Tony Gustavsson',
+      coach: {
+        name: 'Tony Gustavsson',
+        img: 'https://digitalhub.fifa.com/transform/147099e2-bdb4-4802-b5c1-82c724051ea4/Australia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
