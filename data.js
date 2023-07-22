@@ -10,101 +10,101 @@ const teams = [
       goalkeeper: [
         {
           name: 'Vanina Correa',
-          img: 'https://digitalhub.fifa.com/transform/cd057c0d-cc00-4132-937f-6b69df5dedad/',
+          img: 'https://digitalhub.fifa.com/transform/cd057c0d-cc00-4132-937f-6b69df5dedad/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Lara Esponda',
-          img: 'https://digitalhub.fifa.com/transform/19fb48a4-8333-4764-8e68-2ee76deb065f/',
+          img: 'https://digitalhub.fifa.com/transform/19fb48a4-8333-4764-8e68-2ee76deb065f/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Abigail Chaves',
-          img: 'https://digitalhub.fifa.com/transform/9c7fa3ac-b7aa-476b-bf94-adc5878c9c17/',
+          img: 'https://digitalhub.fifa.com/transform/9c7fa3ac-b7aa-476b-bf94-adc5878c9c17/?io=transform:fill,width:264,height:300',
         },
       ],
       defender: [
         {
           name: 'Adriana Sachs',
-          img: 'https://digitalhub.fifa.com/transform/5992d863-6a81-407b-99fd-4d15ad0ebb25/',
+          img: 'https://digitalhub.fifa.com/transform/5992d863-6a81-407b-99fd-4d15ad0ebb25/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Eliana Stábile',
-          img: 'https://digitalhub.fifa.com/transform/f5ea9e38-bbb4-481a-b7bd-25af0cfbba42/',
+          img: 'https://digitalhub.fifa.com/transform/f5ea9e38-bbb4-481a-b7bd-25af0cfbba42/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Julieta Cruz',
-          img: 'https://digitalhub.fifa.com/transform/f4dcaa27-089a-480a-a535-dbdc0ddf0395/',
+          img: 'https://digitalhub.fifa.com/transform/f4dcaa27-089a-480a-a535-dbdc0ddf0395/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Alda Cometti',
-          img: 'https://digitalhub.fifa.com/transform/7f4a693b-87e0-4c5c-a78c-f20b65f3efff/',
+          img: 'https://digitalhub.fifa.com/transform/7f4a693b-87e0-4c5c-a78c-f20b65f3efff/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Sophia Braun',
-          img: 'https://digitalhub.fifa.com/transform/9cdb8694-af74-4bc4-9f64-2e834fdf7e8c/',
+          img: 'https://digitalhub.fifa.com/transform/9cdb8694-af74-4bc4-9f64-2e834fdf7e8c/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Miriam Mayorga',
-          img: 'https://digitalhub.fifa.com/transform/3c8b10f8-a645-4466-a587-737667de48d0/',
+          img: 'https://digitalhub.fifa.com/transform/3c8b10f8-a645-4466-a587-737667de48d0/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Gabriela Chávez',
-          img: 'https://digitalhub.fifa.com/transform/a2c9cdab-c911-441a-99ec-e5ca50f5d341/',
+          img: 'https://digitalhub.fifa.com/transform/a2c9cdab-c911-441a-99ec-e5ca50f5d341/?io=transform:fill,width:264,height:300',
         },
       ],
       midfield: [
         {
           name: 'Vanessa Santana',
-          img: 'https://digitalhub.fifa.com/transform/af9ff8ce-6046-4d8a-bb39-145900b61125/',
+          img: 'https://digitalhub.fifa.com/transform/af9ff8ce-6046-4d8a-bb39-145900b61125/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Romina Núñez',
-          img: 'https://digitalhub.fifa.com/transform/1b78dd4c-4675-41be-9a85-c500acd48d63/',
+          img: 'https://digitalhub.fifa.com/transform/1b78dd4c-4675-41be-9a85-c500acd48d63/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Daiana Faltán',
-          img: 'https://digitalhub.fifa.com/transform/2b674faa-44e5-4e2e-acf8-f2c95e4d117c/',
+          img: 'https://digitalhub.fifa.com/transform/2b674faa-44e5-4e2e-acf8-f2c95e4d117c/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Dalila Ippolito',
-          img: 'https://digitalhub.fifa.com/transform/d3b46f41-1cbc-40a1-895a-6aab1c0d897e/',
+          img: 'https://digitalhub.fifa.com/transform/d3b46f41-1cbc-40a1-895a-6aab1c0d897e/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Florencia',
-          img: 'https://digitalhub.fifa.com/transform/a7887241-c1fe-4956-8e3c-1ce7a1af0144/',
+          img: 'https://digitalhub.fifa.com/transform/a7887241-c1fe-4956-8e3c-1ce7a1af0144/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Lorena Benítez',
-          img: 'https://digitalhub.fifa.com/transform/290870a5-5051-404c-a524-6be80d2965f0/',
+          img: 'https://digitalhub.fifa.com/transform/290870a5-5051-404c-a524-6be80d2965f0/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Camila Gómez Ares',
-          img: 'https://digitalhub.fifa.com/transform/85180595-ee8a-4c85-bc93-4c174b42cce8/',
+          img: 'https://digitalhub.fifa.com/transform/85180595-ee8a-4c85-bc93-4c174b42cce8/?io=transform:fill,width:264,height:300',
         },
       ],
       attacker: [
         {
           name: 'Estefanía Banini',
-          img: 'https://digitalhub.fifa.com/transform/272c66b5-5d9c-468f-a3a8-6bda455e68d3/',
+          img: 'https://digitalhub.fifa.com/transform/272c66b5-5d9c-468f-a3a8-6bda455e68d3/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Paulina Gramaglia',
-          img: 'https://digitalhub.fifa.com/transform/06f656a5-9c29-44f7-85a3-13a54128c5af/',
+          img: 'https://digitalhub.fifa.com/transform/06f656a5-9c29-44f7-85a3-13a54128c5af/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Yamila Rodríguez',
-          img: 'https://digitalhub.fifa.com/transform/1274a494-2e72-456f-8473-193c6904cc79/',
+          img: 'https://digitalhub.fifa.com/transform/1274a494-2e72-456f-8473-193c6904cc79/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Mariana Larroquette',
-          img: 'https://digitalhub.fifa.com/transform/8a5656fe-58f9-42e7-804c-a9c071f4c12a/',
+          img: 'https://digitalhub.fifa.com/transform/8a5656fe-58f9-42e7-804c-a9c071f4c12a/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Chiara Singarella',
-          img: 'https://digitalhub.fifa.com/transform/53d06ecb-b1bd-4974-8878-39fe7032f5f0/',
+          img: 'https://digitalhub.fifa.com/transform/53d06ecb-b1bd-4974-8878-39fe7032f5f0/?io=transform:fill,width:264,height:300',
         },
         {
           name: 'Érica Lonigro',
-          img: 'https://digitalhub.fifa.com/transform/560f0948-5d09-4846-8edf-a0ede9051999/',
+          img: 'https://digitalhub.fifa.com/transform/560f0948-5d09-4846-8edf-a0ede9051999/?io=transform:fill,width:264,height:300',
         },
       ],
       coach: {
