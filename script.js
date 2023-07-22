@@ -65,7 +65,7 @@ const handleRenderSquads = (squad) => {
     if (Array.isArray(squad.players[element])) {
       createUl.appendChild(handleSubListPlayer(squad.players[element]));
     } else {
-      createUl.appendChild(handleDinamicText('li', squad.players[element]));
+      createUl.appendChild(handlePlayers(squad.players[element]));
     }
   }
   squadsElement.appendChild(createUl);
