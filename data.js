@@ -349,36 +349,110 @@ const teams = [
     population: 38005238,
     flag: 'https://flagcdn.com/ca.svg',
     players: {
-      goalkeeper: ["Sabrina D'Angelo", 'Lysianne Proulx', 'Kailen Sheridan'],
+      goalkeeper: [
+        {
+          name: 'Kailen SHERIDAN',
+          img: 'https://digitalhub.fifa.com/transform/af578751-bbb9-4e0b-92ef-955a9d64984d/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sabrina DANGELO',
+          img: 'https://digitalhub.fifa.com/transform/687d60db-fce8-42d4-b07c-20d1157f7fd7/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lysianne PROULX',
+          img: 'https://digitalhub.fifa.com/transform/eafe0cdb-e83b-4386-9352-c40bdeb5d6a0/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Kadeisha Buchanan',
-        'Vanessa Gilles',
-        'Shelina Zadorsky',
-        'Jade Rose',
-        'Allysha Chapman',
-        'Ashley Lawrence',
-        'Jayde Riviere',
+        {
+          name: 'Allysha CHAPMAN',
+          img: 'https://digitalhub.fifa.com/transform/f2442707-7f6c-4df2-bd4b-8ae6cd474ca1/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kadeisha BUCHANAN',
+          img: 'https://digitalhub.fifa.com/transform/391711d8-1035-48db-a2af-228f42624ae1/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Shelina ZADORSKY',
+          img: 'https://digitalhub.fifa.com/transform/c30808e7-cc7f-4342-af5d-8bbb7c6b4a3b/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jayde RIVIERE',
+          img: 'https://digitalhub.fifa.com/transform/704907c9-d5d3-4958-b9cf-83a959053a91/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ashley LAWRENCE',
+          img: 'https://digitalhub.fifa.com/transform/eab717bb-ffe1-4b50-91b5-4b4582fbd794/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Vanessa GILLES',
+          img: 'https://digitalhub.fifa.com/transform/23b73512-92a3-4132-a159-af9e16a9f888/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Gabrielle CARLE',
+          img: 'https://digitalhub.fifa.com/transform/b8e952ab-4513-4330-b609-04670104a748/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Quinn',
-        "Marie-Yasmine Alidou D'Anjou",
-        'Simi Awujo',
-        'Jessie Fleming',
-        'Julia Grosso',
-        'Sophie Schmidt',
-        'Desiree Scott',
+        {
+          name: 'QUINN',
+          img: 'https://digitalhub.fifa.com/transform/f67e383b-5565-47df-85b7-427f0b11315a/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Julia GROSSO',
+          img: 'https://digitalhub.fifa.com/transform/1b524686-b128-4c1e-940c-03d5fc9d0f13/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sophie SCHMIDT',
+          img: 'https://digitalhub.fifa.com/transform/e113f761-4ef2-48a9-b91e-2175887cb9ee/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jessie FLEMING',
+          img: 'https://digitalhub.fifa.com/transform/736142dd-8ecb-4eb3-845a-b0427a7d8ab4/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Simi AWUJO',
+          img: 'https://digitalhub.fifa.com/transform/950359af-ac57-45b1-b054-3e36611c4538/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Jordyn Huitema',
-        'Cloe Lacasse',
-        'Clarissa Larisey',
-        'Adriana Leon',
-        'Christine Sinclair',
-        'Nichelle Prince',
-        'Deanne Rose',
-        'Evelyne Viens',
+        {
+          name: 'Deanne ROSE',
+          img: 'https://digitalhub.fifa.com/transform/85be5844-e7d3-45e2-86e4-11173694cbb3/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jordyn HUITEMA',
+          img: 'https://digitalhub.fifa.com/transform/bc0155ca-514a-48aa-b5b7-b2733854d3ee/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Evelyne VIENS',
+          img: 'https://digitalhub.fifa.com/transform/7c8e43cf-4e57-4ba7-b730-7625db434820/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Christine SINCLAIR',
+          img: 'https://digitalhub.fifa.com/transform/00e96f48-57e1-4ac3-b4bd-66f6a86e9189/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nichelle PRINCE',
+          img: 'https://digitalhub.fifa.com/transform/57c3254d-a747-4638-830b-0852a3eccc47/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Adriana LEON',
+          img: 'https://digitalhub.fifa.com/transform/b863e80d-4193-4176-ad8e-a7ada025e924/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Cloe LACASSE',
+          img: 'https://digitalhub.fifa.com/transform/47cd379b-170c-4bed-a1f2-48251f1df76e/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Olivia SMITH',
+          img: 'https://digitalhub.fifa.com/transform/12b36bf9-cc04-4acc-8dbc-9c6fbc3b2b4f/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Bev Priestman',
+      coach: {
+        name: 'Beverly Priestman',
+        img: 'https://digitalhub.fifa.com/transform/74ec3eca-afb2-4b23-864a-bc71c3d2566b/Canada-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
