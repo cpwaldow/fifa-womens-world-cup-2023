@@ -463,34 +463,110 @@ const teams = [
     population: 1402112000,
     flag: 'https://flagcdn.com/cn.svg',
     players: {
-      goalkeeper: ['Zhu Yu', 'Xu Huan', 'Pan Hongyan'],
+      goalkeeper: [
+        {
+          name: 'ZHU Yu',
+          img: 'https://digitalhub.fifa.com/transform/1e494dda-a4c5-4dae-9cf8-5090d853f770/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'XU Huan',
+          img: 'https://digitalhub.fifa.com/transform/c1d86a33-cfd5-4eb9-b55e-e4dd81e12425/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'PAN Hongyan',
+          img: 'https://digitalhub.fifa.com/transform/53467760-d144-476b-82ca-6e76f4db046e/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Mengwen Li',
-        'Jiaxing Dou',
-        'Linlin Wang',
-        'Haiyan Wu',
-        'Wei Yao',
-        'Qiaozhu Chen',
-        'Chen Gao',
+        {
+          name: 'LI Mengwen',
+          img: 'https://digitalhub.fifa.com/transform/511e52f4-9e29-41e0-a850-000e9a1b65b4/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'DOU Jiaxing',
+          img: 'https://digitalhub.fifa.com/transform/3acd4712-1da3-4aa7-a76a-bf342bb953b7/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'WANG Linlin',
+          img: 'https://digitalhub.fifa.com/transform/7b6ebe21-2a9e-4ad3-840a-f6deb4f5c95a/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'WU Haiyan',
+          img: 'https://digitalhub.fifa.com/transform/6c2b8da7-b994-448b-84b3-dd30aefa933c/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'YAO Wei',
+          img: 'https://digitalhub.fifa.com/transform/371b1732-76a3-4760-814f-00c14ec6fbf5/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Miriam',
+          img: 'https://digitalhub.fifa.com/transform/15e1a623-cc40-4df6-928a-2d6b32239085/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'CHEN Qiaozhu',
+          img: 'https://digitalhub.fifa.com/transform/99dcd8f9-8232-4f16-b268-61f6406148d5/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Xin Zhang',
-        'Mengyu Shen',
-        'Rui Zhang',
-        'Lina Yang',
-        'Lingwei Yao',
-        'Chengshu Wu',
-        'Linyan Zhang',
-        'Yasha Gu',
+        {
+          name: 'GAO Chen',
+          img: 'https://digitalhub.fifa.com/transform/67bde3da-e81e-46d0-9719-db1be755a55e/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ZHANG Xin',
+          img: 'https://digitalhub.fifa.com/transform/0d7dfb20-27d8-4148-a612-96e34a4d27bf/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'SHEN Mengyu',
+          img: 'https://digitalhub.fifa.com/transform/e2ef324e-0901-4938-8629-a4e230064c9f/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ZHANG Rui',
+          img: 'https://digitalhub.fifa.com/transform/bc45ff0b-c5c4-4e45-a2d4-6ee281a85ea6/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Florencia',
+          img: 'https://digitalhub.fifa.com/transform/9badff62-aaf2-46ff-9a6e-3afa2a34dbed/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'YANG Lina',
+          img: 'https://digitalhub.fifa.com/transform/977ca6b1-ea51-40dd-a364-ff757dacd54d/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'YAO Lingwei',
+          img: 'https://digitalhub.fifa.com/transform/7f3fff84-005b-4fc0-854e-f97efc30e387/CHINA-Headshots?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'WU Chengshu',
+          img: 'https://digitalhub.fifa.com/transform/063ece3c-ad6f-4d72-8137-2f954e557820/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Shuang Wang',
-        'Shanshan Wang',
-        'Jiahui Lou',
-        'Jiali Tang',
-        'Yuyi Xiao',
+        {
+          name: 'ZHANG Linyan',
+          img: 'https://digitalhub.fifa.com/transform/d49db1b5-1773-4c67-9bb9-ed9d24dfea50/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'GU Yasha',
+          img: 'https://digitalhub.fifa.com/transform/c11adc71-6039-4517-9d59-0a4c06b29186/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'WANG Shuang',
+          img: 'https://digitalhub.fifa.com/transform/1d647fb7-7034-440e-8fd1-4af463b30dee/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'WANG Shanshan',
+          img: 'https://digitalhub.fifa.com/transform/010f8a6b-4958-434b-86c2-341a0adef103/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'LOU Jiahui',
+          img: 'https://digitalhub.fifa.com/transform/ee6276f3-61c6-40ba-9a8c-9af2a31f1a09/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Shui Qingxia',
+      coach: {
+        name: 'Shui Qingxia',
+        img: 'https://digitalhub.fifa.com/transform/4c27a044-cbdb-43d8-85de-a99c0cfc2235/China-PR-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
