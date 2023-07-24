@@ -806,37 +806,109 @@ const teams = [
     flag: 'https://flagcdn.com/dk.svg',
     players: {
       goalkeeper: [
-        'Lene Christensen',
-        'Katrhine Larsen',
-        'Maja Bay Ostergaard',
+        {
+          name: 'Lene CHRISTENSEN',
+          img: 'https://digitalhub.fifa.com/transform/e37c4224-b310-4620-9d1e-9ed521ff5e6e/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kathrine LARSEN',
+          img: 'https://digitalhub.fifa.com/transform/af59d424-c0df-4da8-86b0-60621d0db6d6/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maja BAY',
+          img: 'https://digitalhub.fifa.com/transform/8d37e74c-a9b5-4497-b514-549ae5f6172e/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       defender: [
-        'Luna Gevitz',
-        'Stine Pedersen',
-        'Rikke Sevecke',
-        'Simone Sorensen',
-        'Sofie Svava',
-        'Frederikke Thogersen',
-        'Katrine Veje',
+        {
+          name: 'Stine BALLISAGER',
+          img: 'https://digitalhub.fifa.com/transform/b0465146-d5c7-45a2-9c3b-d082de494cf0/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rikke SEVECKE',
+          img: 'https://digitalhub.fifa.com/transform/fa69d72e-3a28-4a4d-a0ea-a6ff6b3d6c9f/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Simone BOYE',
+          img: 'https://digitalhub.fifa.com/transform/fb692a78-4f76-4ce9-bef7-dca076fdea16/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katrine VEJE',
+          img: 'https://digitalhub.fifa.com/transform/a6ba6ce2-1bbf-4fbd-8c95-5b5ea2e9b53d/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sara THRIGE',
+          img: 'https://digitalhub.fifa.com/transform/ee78757c-1054-43c3-91d6-b891fe308f1c/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Luna GEVITZ',
+          img: 'https://digitalhub.fifa.com/transform/0871a621-b8bc-4a97-9af8-16c4804f94a6/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Janni THOMSEN',
+          img: 'https://digitalhub.fifa.com/transform/af03445e-3715-4021-9e5f-f277cb4c42e2/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sofie SVAVA',
+          img: 'https://digitalhub.fifa.com/transform/6bf05349-9ed8-44aa-8d12-1291a1b1b0ca/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Josefine Hasbo',
-        'Karen Holmgaard',
-        'Sofie Pedersen',
-        'Kathrine Kühl',
-        'Emma Snerle',
-        'Nicoline Sorensen',
-        'Janni Thomsen',
-        'Sanne Nielsen',
+        {
+          name: 'Josefine HASBO',
+          img: 'https://digitalhub.fifa.com/transform/705cbd1a-360f-4e5e-a4b4-52795d5fdf2a/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Karen HOLMGAARD',
+          img: 'https://digitalhub.fifa.com/transform/6c998b25-79be-4293-98ac-54455d743947/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sanne TROELSGAARD',
+          img: 'https://digitalhub.fifa.com/transform/df014c58-3cbd-4213-9995-5182c632bb00/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Emma SNERLE',
+          img: 'https://digitalhub.fifa.com/transform/932dc497-75a5-410a-a8fe-061f4ee3484d/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kathrine KUHL',
+          img: 'https://digitalhub.fifa.com/transform/ddbe1541-161d-4963-92be-87f4d7894f9f/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nicoline SORENSEN',
+          img: 'https://digitalhub.fifa.com/transform/4c1b2a95-c18f-476e-9cc7-eb069f00b0f5/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Frederikke THOGERSEN',
+          img: 'https://digitalhub.fifa.com/transform/4be72d32-d2ab-40e4-b737-50ed0df9c8aa/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Signe Bruun',
-        'Mille Gejl',
-        'Pernille Harder',
-        'Rikke Madsen',
-        'Amalie Vangsgaard',
+        {
+          name: 'Amalie VANGSGAARD',
+          img: 'https://digitalhub.fifa.com/transform/fadcba54-de18-42c9-b996-a097c1ed944e/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Pernille HARDER',
+          img: 'https://digitalhub.fifa.com/transform/0bcf50bf-2ea1-4f83-8de2-4e44c80f92e4/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rikke Marie MADSEN',
+          img: 'https://digitalhub.fifa.com/transform/8bed17dc-fb49-4086-8311-c4f5ff41a602/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Signe BRUUN',
+          img: 'https://digitalhub.fifa.com/transform/99d9d5a9-1044-4d4e-9bea-03ae5afeb397/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mille GEJL',
+          img: 'https://digitalhub.fifa.com/transform/254015e0-ac52-4b01-8645-6a3d7e6b7ee4/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Lars Sondergaard',
+      coach: {
+        name: 'Lars SONDERGAARD',
+        img: 'https://digitalhub.fifa.com/transform/0bb39e2b-fcda-4605-914e-17e0c0d872c0/Denmark-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
