@@ -1603,29 +1603,110 @@ const teams = [
     population: 125836021,
     flag: 'https://flagcdn.com/jp.svg',
     players: {
-      goalkeeper: ['Ayaka Yamashita', 'Chika Hirao', 'Momoko Tanaka'],
+      goalkeeper: [
+        {
+          name: 'Ayaka YAMASHITA',
+          img: 'https://digitalhub.fifa.com/transform/cbb8b1fe-e440-40e8-ab83-c061b14ed726/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Momoko TANAKA',
+          img: 'https://digitalhub.fifa.com/transform/48b61ab0-f135-4ff5-ae79-39d06551ba4e/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Chika HIRAO',
+          img: 'https://digitalhub.fifa.com/transform/ac8d2ec8-c817-450e-82d9-f48489848f8b/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Saki Kumagai',
-        'Shiori Miyake',
-        'Risa Shimizu',
-        'Kiko Seike',
-        'Miyabi Moriya',
-        'Moeka Minami',
-        'Hana Takahashi',
-        'Rion Ishikawa',
+        {
+          name: 'Risa SHIMIZU',
+          img: 'https://digitalhub.fifa.com/transform/9892b389-377f-47bf-bc5e-2092b00b69cd/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Moeka MINAMI',
+          img: 'https://digitalhub.fifa.com/transform/a2aa3eba-a079-47d3-b532-330fee96e217/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Saki KUMAGAI',
+          img: 'https://digitalhub.fifa.com/transform/feb282b8-3880-48b1-a7f6-0e7ac9c16353/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Shiori MIYAKE',
+          img: 'https://digitalhub.fifa.com/transform/acc3b48a-1dc7-417b-bbd0-dd61421b253e/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hana TAKAHASHI',
+          img: 'https://digitalhub.fifa.com/transform/d28f4add-c51e-4044-b3e5-3e78d8cc3455/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Miyabi MORIYA',
+          img: 'https://digitalhub.fifa.com/transform/0c23881a-2e02-41ba-b2dc-cba3290bdc70/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rion ISHIKAWA',
+          img: 'https://digitalhub.fifa.com/transform/23fed033-ba71-4eb1-b06e-7e637683a002/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Hikaru Naomoto',
-        'Yui Hasegawa',
-        'Hina Sugita',
-        'Honoka Hayashi',
-        'Fuka Nagano',
-        'Hinata Miyazawa',
-        'Jun Endo',
-        'Aoba Fujino',
+        {
+          name: 'Hina SUGITA',
+          img: 'https://digitalhub.fifa.com/transform/3f241225-49b0-4824-a2a3-979135106298/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hinata MIYAZAWA',
+          img: 'https://digitalhub.fifa.com/transform/9596fe0d-92b5-4858-a8fd-ebe3972137d6/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hikaru NAOMOTO',
+          img: 'https://digitalhub.fifa.com/transform/3725ea98-86c5-42a8-887f-34e69c814bbf/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Fuka NAGANO',
+          img: 'https://digitalhub.fifa.com/transform/971485dc-202e-44e3-8387-a8b7b53ebfaf/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jun ENDO',
+          img: 'https://digitalhub.fifa.com/transform/5ae3bb39-5ee1-4ae9-876d-a8488a5da9a2/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Yui HASEGAWA',
+          img: 'https://digitalhub.fifa.com/transform/027d3428-dd19-41a5-9957-f5fcd095111b/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Aoba FUJINO',
+          img: 'https://digitalhub.fifa.com/transform/9d6027e9-4865-4035-b16d-223519f3c5e5/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Honoka HAYASHI',
+          img: 'https://digitalhub.fifa.com/transform/acb15495-afdc-45c3-b23e-47681a80df6c/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kiko SEIKE',
+          img: 'https://digitalhub.fifa.com/transform/55d7d3ff-251a-4792-8806-a8586012f718/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      attacker: ['Mina Tanaka', 'Remina Chiba', 'Riko Ueki', 'Maika Hamano'],
-      coach: '',
+      attacker: [
+        {
+          name: 'Riko UEKI',
+          img: 'https://digitalhub.fifa.com/transform/2c2a4b23-9e68-493c-b822-9b3924da0a3c/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mina TANAKA',
+          img: 'https://digitalhub.fifa.com/transform/bcf6ea71-8acb-404f-879b-9f613b419830/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maika HAMANO',
+          img: 'https://digitalhub.fifa.com/transform/70c7e2c3-3cfb-4b3f-9e7f-1c4e368533ef/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Remina CHIBA',
+          img: 'https://digitalhub.fifa.com/transform/76d0ee39-44be-4a19-9a3c-86e80439b38d/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
+      coach: {
+        name: 'Futoshi Ikeda',
+        img: 'https://digitalhub.fifa.com/transform/100bbd1c-5e46-421b-a9c8-0943d7c2c012/Japan-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
