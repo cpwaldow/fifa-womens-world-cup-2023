@@ -691,34 +691,110 @@ const teams = [
     population: 5094114,
     flag: 'https://flagcdn.com/cr.svg',
     players: {
-      goalkeeper: ['Priscilla Tapia', 'Daniela Solera', 'Génesis Pérez'],
+      goalkeeper: [
+        {
+          name: 'Genesis PEREZ',
+          img: 'https://digitalhub.fifa.com/transform/71b98f36-cdd9-4271-aec9-4e3ff02b0f24/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Priscilla TAPIA',
+          img: 'https://digitalhub.fifa.com/transform/e66aad9b-f36c-49e7-aba9-f0d3225c09bc/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Daniela SOLERA',
+          img: 'https://digitalhub.fifa.com/transform/90c2e9e4-ba4b-47ff-8a4a-44ab8fd9b6fa/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Mariana Benavides',
-        'Maria Paula Elizondo',
-        'Valeria del Campo',
-        'Yesmi Rodríguez',
-        'Fabíola Villalobos',
-        'Maria Coto',
-        'Gabriela Guillén',
+        {
+          name: 'Gabriela GUILLEN',
+          img: 'https://digitalhub.fifa.com/transform/6a526fc7-b11b-424a-8283-d4588ceff196/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maria Paula COTO',
+          img: 'https://digitalhub.fifa.com/transform/5497de12-ca86-42f5-93f4-36c49e734edd/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mariana BENAVIDES',
+          img: 'https://digitalhub.fifa.com/transform/bc367ca9-7b08-4623-b485-ac88294fcb9a/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Valeria DEL CAMPO GUTIERREZ',
+          img: 'https://digitalhub.fifa.com/transform/f6c44fdf-bda2-438d-b1b7-926cf9684f8a/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Carol SANCHEZ',
+          img: 'https://digitalhub.fifa.com/transform/34f5ca59-6e72-4f59-acd7-84990a1c2ba3/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maria Paula ELIZONDO',
+          img: 'https://digitalhub.fifa.com/transform/fc20edb0-1492-4064-bc0f-de0e0d463b71/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Emilie VALENCIANO',
+          img: 'https://digitalhub.fifa.com/transform/a6f4fe1b-3eaf-48de-954c-d4c03d8f2af3/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Fabiola VILLALOBOS',
+          img: 'https://digitalhub.fifa.com/transform/a67d64e0-90d5-4aaf-8d43-0e4dc4a6be07/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Katherine Alvarado',
-        'Mariela Campos',
-        'Gloriana Villalobos',
-        'Emilie Valenciano',
-        'Melissa Herrera',
-        'Cristin Granados',
-        'Alexandra Pineli',
-        'Sheika Scott',
-        'Raquel Rodríguez',
+        {
+          name: 'Melissa HERRERA',
+          img: 'https://digitalhub.fifa.com/transform/9d813dfc-b3cc-4ee6-a706-13c76bc604d1/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mariela CAMPOS',
+          img: 'https://digitalhub.fifa.com/transform/8ad22149-768e-4e4c-906a-f696d8c0153f/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Gloriana VILLALOBOS',
+          img: 'https://digitalhub.fifa.com/transform/0e43abe8-dcea-4826-9342-61bdbbb653c8/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Raquel RODRIGUEZ',
+          img: 'https://digitalhub.fifa.com/transform/dd8c2d81-b34c-459b-a8b1-7da315487fda/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Priscilla CHINCHILLA',
+          img: 'https://digitalhub.fifa.com/transform/f1aa7b77-41bb-44b1-a916-8abc1ad5de0f/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Cristin GRANADOS',
+          img: 'https://digitalhub.fifa.com/transform/81e11d0b-00ce-4a1c-a575-e1226ba51e05/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katherine ALVARADO',
+          img: 'https://digitalhub.fifa.com/transform/3aa4a8a3-5e13-4a7f-b0b4-39236b522975/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alexandra PINELL',
+          img: 'https://digitalhub.fifa.com/transform/1ef23514-2426-4073-b782-b0de29573670/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sheika SCOTT',
+          img: 'https://digitalhub.fifa.com/transform/5f338ae8-f08b-460e-b12f-c0ec54ba7b60/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Catalina Estrada',
-        'Princila Chinchilla',
-        'Sofia Varela',
-        'Maria Paula Salas',
+        {
+          name: 'Maria Paula SALAS',
+          img: 'https://digitalhub.fifa.com/transform/a83c0051-d232-431e-bd30-37929e8bcf83/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sofia VARELA',
+          img: 'https://digitalhub.fifa.com/transform/e2e2effe-cc81-4665-ace2-1f17cc6ca968/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Catalina ESTRADA',
+          img: 'https://digitalhub.fifa.com/transform/604cd1e8-aef7-4e61-abc3-a15d37c11321/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Amelia Valverde',
+      coach: {
+        name: 'Amelia VALVERDE',
+        img: 'https://digitalhub.fifa.com/transform/af8d7634-5986-4d77-8e0f-59c2e571e8e0/Costa-Rica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
