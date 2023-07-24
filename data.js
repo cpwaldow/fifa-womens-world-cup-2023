@@ -1717,34 +1717,110 @@ const teams = [
     population: 51780579,
     flag: 'https://flagcdn.com/kr.svg',
     players: {
-      goalkeeper: ['Kim Jung-mi', 'Yoon Young-geul', 'Ryu Ji-soo'],
+      goalkeeper: [
+        {
+          name: 'YOON Younggeul',
+          img: 'https://digitalhub.fifa.com/transform/b4b6df1c-6058-48b9-b844-aa93486c6d22/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'KIM Jungmi',
+          img: 'https://digitalhub.fifa.com/transform/21611eb2-15e6-486f-9164-e5b925747a98/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'RYU Jisu',
+          img: 'https://digitalhub.fifa.com/transform/8e81c7e7-f90b-4712-919f-f3de7e31a412/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Kim Hye-ri',
-        'Lim Seon-joo',
-        'Jang Sei-gi',
-        'Shim Seo-yeon',
-        'Lee Young-ju',
-        'Heong Hye-ji',
-        'Choo Hyo-joo',
+        {
+          name: 'CHOO Hyojoo',
+          img: 'https://digitalhub.fifa.com/transform/0ecb2700-b244-4e20-b0f4-8857fc33d3a0/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'HONG Hyeji',
+          img: 'https://digitalhub.fifa.com/transform/20929501-f933-476d-aeec-eddd764ccc80/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'SHIM Seoyeon',
+          img: 'https://digitalhub.fifa.com/transform/fe77fea9-d6c9-4d23-bbcc-b0b0c4d50bc8/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'LIM Seonjoo',
+          img: 'https://digitalhub.fifa.com/transform/c19ea83a-8f74-4ce9-91cd-b7c70164a505/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'JANG Selgi',
+          img: 'https://digitalhub.fifa.com/transform/da996530-a5d8-43fd-a69e-a77baf7fa443/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'LEE Youngju',
+          img: 'https://digitalhub.fifa.com/transform/a9c7b3e2-c827-4362-a32a-3d654c7799d6/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'KIM Hyeri',
+          img: 'https://digitalhub.fifa.com/transform/d4cfe554-07e3-4b87-ab16-c62d31d26119/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Cho So-hyun',
-        'Ji So-yun',
-        'Lee Geum-min',
-        'Jeon Eun-ha',
-        'Kim Yun-ji',
-        'Chun Ga-ram',
-        'Bae Ye-bin',
+        {
+          name: 'KIM Yunji',
+          img: 'https://digitalhub.fifa.com/transform/737bf4bd-e99f-4d6c-91b8-f8384552fc6b/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'CHO Sohyun',
+          img: 'https://digitalhub.fifa.com/transform/d0f122af-45b5-4823-9d02-cc155125e276/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'LEE Geummin',
+          img: 'https://digitalhub.fifa.com/transform/7d082810-b92c-4cf0-9bac-63427645cbb6/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'JI Soyun',
+          img: 'https://digitalhub.fifa.com/transform/f0d74895-d963-47e6-96a4-5a6f6b68f39a/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'JEON Eunha',
+          img: 'https://digitalhub.fifa.com/transform/373aa35b-38e9-4352-a8e1-102ffb74f53d/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'CHUN Garam',
+          img: 'https://digitalhub.fifa.com/transform/b2c9db67-86ff-4998-ba3e-3b8077e699d6/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'BAE Yebin',
+          img: '',
+        },
       ],
       attacker: [
-        'Choe Yu-ri',
-        'Son Hwa-yeon',
-        'Park Eun-sun',
-        'Moon Mi-ra',
-        'Kang Chae-rim',
-        'Casey Phair',
+        {
+          name: 'SON Hwayeon',
+          img: 'https://digitalhub.fifa.com/transform/79cdace3-df90-43c9-b94f-d70bc300acb8/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'CHOE Yuri',
+          img: 'https://digitalhub.fifa.com/transform/c0accf4b-b204-496b-ad81-00f46d05b1cc/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'MOON Mira',
+          img: 'https://digitalhub.fifa.com/transform/459db0dc-9e7b-4a18-ba9a-32ee3a151002/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'PARK Eunsun',
+          img: 'https://digitalhub.fifa.com/transform/9483026f-9831-4455-a153-e043e0e6c803/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'PHAIR Casey',
+          img: 'https://digitalhub.fifa.com/transform/8d891e15-9b18-42fa-958e-a5a1c8a8e2ab/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'KANG Chaerim',
+          img: 'https://digitalhub.fifa.com/transform/6a088b04-fc77-4739-89cc-06b1bf347275/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Colin Bell',
+      coach: {
+        name: 'Colin Bell',
+        img: 'https://digitalhub.fifa.com/transform/0be27d99-5aad-42b8-9224-55ff11741f26/Korea-Republic-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
