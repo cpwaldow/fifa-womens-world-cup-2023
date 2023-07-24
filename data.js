@@ -1831,39 +1831,110 @@ const teams = [
     population: 36910558,
     flag: 'https://flagcdn.com/ma.svg',
     players: {
-      goalkeeper: ['Inès Arouaissa', 'Khadija Er-Rmichi', 'Assia Zouhair'],
+      goalkeeper: [
+        {
+          name: 'Khadija ER-RMICHI',
+          img: 'https://digitalhub.fifa.com/transform/54e1141a-96c3-48e7-9095-b67e4d40fa13/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Assia ZOUHAIR',
+          img: 'https://digitalhub.fifa.com/transform/b2b5b696-a485-46d7-943b-6e56ea315eed/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ines AROUAISSA',
+          img: 'https://digitalhub.fifa.com/transform/1b24d935-8258-4d5c-bf97-d23c469d22b5/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Hanane Aït El Haj',
-        'Nouhaila Benzina',
-        'Siham Boukhami',
-        'Zineb Redouani',
-        'Yasmin Mrabet',
-        'Rkia Mazrouai',
-        'Nesryne El Chad',
-        'Ghizlane Chhiri',
-        'Sabah Seghir',
+        {
+          name: 'Zineb REDOUANI',
+          img: 'https://digitalhub.fifa.com/transform/8621fa06-2543-4500-a337-2a8725fd54db/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nouhaila BENZINA',
+          img: 'https://digitalhub.fifa.com/transform/79857577-2046-44de-9a2f-e5896554a998/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nesryne EL CHAD',
+          img: 'https://digitalhub.fifa.com/transform/633b71ee-8c98-4ac6-a12f-0f2ea34ea764/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Najat BADRI',
+          img: 'https://digitalhub.fifa.com/transform/56d33445-0435-4491-a266-5265f2a5fbd2/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sabah SEGHIR',
+          img: 'https://digitalhub.fifa.com/transform/6bcad76f-4d80-456b-96bd-ac62bd646614/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rkia MAZROUAI',
+          img: 'https://digitalhub.fifa.com/transform/bcbbffe4-b90b-402c-8df3-a73bb9d5dc35/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hanane AIT EL HAJ',
+          img: 'https://digitalhub.fifa.com/transform/c75d5676-4ae9-4ddb-b1d0-10d9e83b29a5/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Yasmin MRABET',
+          img: 'https://digitalhub.fifa.com/transform/9411bd71-3d09-4345-8b12-cc170d452611/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Najat Badri',
-        'Anissa Lahmari',
-        'Élodie Nakkach',
-        'Sarah Kassi',
-        'Fatima Tagnaout',
-        'Salma Amani',
+        {
+          name: 'Sarah KASSI',
+          img: 'https://digitalhub.fifa.com/transform/2902f1e9-32ce-4b18-952c-dc68b7eeb602/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Elodie NAKKACH',
+          img: 'https://digitalhub.fifa.com/transform/33a704cb-4ca8-4cd7-a851-d2bc0b623455/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Salma AMANI',
+          img: 'https://digitalhub.fifa.com/transform/448e4c96-adb8-437f-8b52-934c08e3bdb2/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Anissa LAHMARI',
+          img: 'https://digitalhub.fifa.com/transform/8cd6b0e2-3afc-430f-9348-571a1598f788/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kenza CHAPELLE',
+          img: 'https://digitalhub.fifa.com/transform/54bc9a51-b2ef-4860-b875-939e5085d9a4/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Rosella Ayane',
-        'Ghizlane Chebbak',
-        'Anissa Belkasmi',
-        'Sofia Bouftini',
-        'Imane Saoud',
-        'Ibtissam Jraidi',
-        'Samya Hassani',
-        'Kenza Chapelle',
-        'Sakina Ouzraoui Diki',
-        'Fatima Zohra Gharbi',
+        {
+          name: 'Sofia BOUFTINI',
+          img: 'https://digitalhub.fifa.com/transform/9b756f77-24f0-4b95-aa4e-0dcbe74ff953/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ghizlane CHEBBAK',
+          img: 'https://digitalhub.fifa.com/transform/9d7ab756-cdad-4be1-8783-0a09c3cfd37e/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ibtissam JRAIDI',
+          img: 'https://digitalhub.fifa.com/transform/bc5212d6-1745-48ad-81d8-7bec87bf6152/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Fatima TAGNAOUT',
+          img: 'https://digitalhub.fifa.com/transform/68b556ab-ac95-45f5-a3f2-6c70675a0e38/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Fatima GHARBI',
+          img: 'https://digitalhub.fifa.com/transform/b3ea81c0-d306-4630-9760-a789c584e9e9/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sakina OUZRAOUI',
+          img: 'https://digitalhub.fifa.com/transform/a62fc59d-00f3-494b-8cba-345505e65d21/Morocco-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rosella AYANE',
+          img: 'https://digitalhub.fifa.com/transform/d349ec43-2114-49e5-9576-d961d822c19b/AYANE-Rosella-467252-10G56J3?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Reynald Pedros',
+      coach: {
+        name: 'Reynald Pedros',
+        img: 'https://digitalhub.fifa.com/transform/5da963e1-d3eb-4f1c-bab8-36638372f244/PEDROS-Reynald-95651?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
