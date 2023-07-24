@@ -1034,37 +1034,109 @@ const teams = [
     flag: 'https://flagcdn.com/fr.svg',
     players: {
       goalkeeper: [
-        'Solène Durand',
-        'Pauline Peyraud-Magnin',
-        'Constance Picaud',
+        {
+          name: 'Solene DURAND',
+          img: 'https://digitalhub.fifa.com/transform/5897eaf3-7ef7-4c7a-9588-25e7a507bef1/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Pauline PEYRAUD-MAGNIN',
+          img: 'https://digitalhub.fifa.com/transform/03ddb834-6e71-464d-b2d7-c5db6d3566c8/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Constance PICAUD',
+          img: 'https://digitalhub.fifa.com/transform/393d52c3-18ce-4a2b-bf88-4458b3b4c145/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       defender: [
-        'Selma Bacha',
-        'Estelle Cascarino',
-        'Elisa de Almeida',
-        'Sakina Karchaoui',
-        'Maëlle Lakrar',
-        'Eve Perisset',
-        'Wendie Renard',
+        {
+          name: 'Maelle LAKRAR',
+          img: 'https://digitalhub.fifa.com/transform/e6a7c8d5-ea00-4d86-a513-a5249629fa78/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Wendie RENARD',
+          img: 'https://digitalhub.fifa.com/transform/17c90575-b3d0-4838-b17b-caf70979948f/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Elisa DE ALMEIDA',
+          img: 'https://digitalhub.fifa.com/transform/ce1c0525-3969-4b15-bc72-3a1db104381f/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sakina KARCHAOUI',
+          img: 'https://digitalhub.fifa.com/transform/3684be0d-ebfb-491e-a552-87de3d793a90/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Selma BACHA',
+          img: 'https://digitalhub.fifa.com/transform/d56f07fb-ede7-455a-83d6-26dc8d081032/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Aissatou TOUNKARA',
+          img: 'https://digitalhub.fifa.com/transform/a85904cd-1cdc-4f42-8ea9-284fd4576679/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Estelle CASCARINO',
+          img: 'https://digitalhub.fifa.com/transform/28e99667-e3b7-4654-a929-016253776d97/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Eve PERISSET',
+          img: 'https://digitalhub.fifa.com/transform/eee68f73-a728-4004-b3b2-cc6d03418d10/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Kenza Dali',
-        'Laurina Fazer',
-        'Grace Geyoro',
-        'Léa Le Garrec',
-        'Amel Majri',
-        'Sandie Toletti',
-        'Aïssatou Tounkara',
+        {
+          name: 'Laurina FAZER',
+          img: 'https://digitalhub.fifa.com/transform/e289a921-6043-4282-b3d1-abbb0115cfeb/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sandie TOLETTI',
+          img: 'https://digitalhub.fifa.com/transform/e4b86efe-c1d6-4e2d-98e8-af9e12fd3063/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Grace GEYORO',
+          img: 'https://digitalhub.fifa.com/transform/ee8e2bf6-e20e-4aad-9902-e3f856262d14/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Amel MAJRI',
+          img: 'https://digitalhub.fifa.com/transform/a4fab148-945a-4b49-9b67-a737f4d7bc59/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kenza DALI',
+          img: 'https://digitalhub.fifa.com/transform/b85b335e-356d-42ff-9664-11da11d5e922/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lea LE GARREC',
+          img: 'https://digitalhub.fifa.com/transform/0c23a323-9f65-4410-949f-9cae40bda06b/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Viviane Asseyi',
-        'Vicki Becho',
-        'Kadidiatou Diani',
-        'Eugénie Le Sommer',
-        'Clara Mateo',
-        'Naomie Feller',
+        {
+          name: 'Eugenie LE SOMMER',
+          img: 'https://digitalhub.fifa.com/transform/48da9d41-8ead-4948-a02e-34bc8c004adb/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kadidiatou DIANI',
+          img: 'https://digitalhub.fifa.com/transform/ce1f36e9-52f6-4520-b4d0-79a8dcf64c18/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Clara MATEO',
+          img: 'https://digitalhub.fifa.com/transform/c122d2b8-3521-4958-8b65-e5b411d1dbe1/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Viviane ASSEYI',
+          img: 'https://digitalhub.fifa.com/transform/d0da548b-3f38-4931-8419-1fee96fcb014/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Naomie FELLER',
+          img: 'https://digitalhub.fifa.com/transform/f4026921-fb02-4373-ab20-55fae576626f/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Vicki BECHO',
+          img: 'https://digitalhub.fifa.com/transform/957da7a1-d0d3-4ac8-9bb2-8a560ee646cc/France-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Hervé Renard',
+      coach: {
+        name: 'Herve RENARD',
+        img: 'https://digitalhub.fifa.com/transform/e49439b0-9d41-4442-8caa-0dde929fca3a/RENARD-Herve-296787?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
