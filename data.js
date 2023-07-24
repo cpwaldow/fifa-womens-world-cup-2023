@@ -1261,34 +1261,110 @@ const teams = [
     population: 11402533,
     flag: 'https://flagcdn.com/ht.svg',
     players: {
-      goalkeeper: ['Nahomie Abroise', 'Lara Larco', 'Kerly Théus'],
+      goalkeeper: [
+        {
+          name: 'Kerly THEUS',
+          img: 'https://digitalhub.fifa.com/transform/b64c61f4-eaa3-4342-85c1-3ecbcf39988d/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nahomie AMBROISE',
+          img: 'https://digitalhub.fifa.com/transform/f572a53a-2fee-46f3-9e5a-6be55a949ff8/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lara LARCO',
+          img: 'https://digitalhub.fifa.com/transform/514a91e4-24b6-4a93-a9f7-f8ad1b28f1b3/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Esthericove Joseph',
-        'Tabita Joseph',
-        'Kethna Louis',
-        'Ruthny Mathurin',
-        'Betina Petit-Frère',
-        'Milan Pierre-Jérôme',
-        'Chelsea Surpris',
+        {
+          name: 'Chelsea SURPRIS',
+          img: 'https://digitalhub.fifa.com/transform/9505db79-b0d5-4327-b8ae-1c586ddcbe07/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jennyfer LIMAGE',
+          img: 'https://digitalhub.fifa.com/transform/d1700089-871a-4055-8527-de70b09555b1/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Tabita JOSEPH',
+          img: 'https://digitalhub.fifa.com/transform/e91155e2-5554-4934-8032-86671909e53a/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maudeline MORYL',
+          img: 'https://digitalhub.fifa.com/transform/474cae04-75ac-4084-ae2d-5d8140ce3fdb/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Betina PETIT-FRERE',
+          img: 'https://digitalhub.fifa.com/transform/f01e4b44-7e8b-44ed-ba57-3fa5aacfc2c4/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Esthericove JOSEPH',
+          img: 'https://digitalhub.fifa.com/transform/c0696fed-2417-4b75-8942-d88a59254e7f/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Milan PIERRE-JEROME',
+          img: 'https://digitalhub.fifa.com/transform/0380869f-e817-4e7d-b240-4717d806c08f/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kethna LOUIS',
+          img: 'https://digitalhub.fifa.com/transform/fb28ca9b-464e-45f0-946a-217f6ce43287/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ruthny MATHURIN',
+          img: 'https://digitalhub.fifa.com/transform/76c69200-8d68-4320-b577-06ab5ba4ffb9/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Michele Dumornay',
-        'Danielle Étienne',
-        'Noa Ganthier',
-        'Sherly Jeudy',
-        'Jennyfer Limage',
-        'Maudeline Moryl',
-        'Dayana Pierre-Louis',
+        {
+          name: 'Melchie DUMORNAY',
+          img: 'https://digitalhub.fifa.com/transform/8c0e4be6-67f1-4956-82c2-0c209048d666/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Danielle ETIENNE',
+          img: 'https://digitalhub.fifa.com/transform/8978230d-23ca-4919-a241-2f40e1c6488b/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sherly JEUDY',
+          img: 'https://digitalhub.fifa.com/transform/31ee07b3-c9b9-4d64-848d-db92bbd246a9/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Noa GANTHIER',
+          img: 'https://digitalhub.fifa.com/transform/e6987467-f2d7-4083-bc6e-821d45bba8d8/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Dayana PIERRE-LOUIS',
+          img: 'https://digitalhub.fifa.com/transform/0a7dd434-887a-4813-ab32-c4c08993324d/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Roselord Borgella',
-        'Roseline Éloissaint',
-        'Darlina Joseph',
-        'Shwendesky Joseph',
-        'Batcheba Louis',
-        'Nérilia Mondésir',
+        {
+          name: 'Batcheba LOUIS',
+          img: 'https://digitalhub.fifa.com/transform/03c3db3d-a20d-4d04-a394-1f109045ec2a/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nerilia MONDESIR',
+          img: 'https://digitalhub.fifa.com/transform/62a9df6c-77bc-4729-91e0-905fa1632732/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Roseline ELOISSAINT',
+          img: 'https://digitalhub.fifa.com/transform/489e8c2d-3861-4851-a3ca-78e058414510/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Darlina JOSEPH',
+          img: 'https://digitalhub.fifa.com/transform/4388120c-f5fd-4a3e-b170-48ca4081f522/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Shwendesky JOSEPH',
+          img: 'https://digitalhub.fifa.com/transform/d376951d-592f-499a-b73c-617c6c9f4f17/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Roselord BORGELLA',
+          img: 'https://digitalhub.fifa.com/transform/ef2228fc-6d50-4c52-a150-f233e2d75e42/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Nicolas Delépine',
+      coach: {
+        name: 'Nicolas Delépine',
+        img: 'https://digitalhub.fifa.com/transform/5bedceba-e49e-4642-9019-4b49b606989c/Haiti-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
