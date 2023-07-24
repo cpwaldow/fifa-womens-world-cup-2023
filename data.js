@@ -919,34 +919,110 @@ const teams = [
     population: 67215293,
     flag: 'https://flagcdn.com/gb.svg',
     players: {
-      goalkeeper: ['Mary Earps', 'Ellie Roebuck', 'Hannah Hampton'],
+      goalkeeper: [
+        {
+          name: 'Mary EARPS',
+          img: 'https://digitalhub.fifa.com/transform/a3fc994b-a1d6-4eb8-aecb-f13d0eca5a50/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hannah HAMPTON',
+          img: 'https://digitalhub.fifa.com/transform/94e99fae-88b7-420b-81d6-52c1ed69997c/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ellie ROEBUCK',
+          img: 'https://digitalhub.fifa.com/transform/a2f4abc4-56f4-4e05-bc27-ca9173afa7eb/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Lucy Bronze',
-        'Millie Bright',
-        'Alex Greenwood',
-        'Jess Carter',
-        'Esme Morgan',
-        'Lotte Wubben-Moy',
-        'Niamh Charles',
+        {
+          name: 'Lucy BRONZE',
+          img: 'https://digitalhub.fifa.com/transform/56844788-b06c-4466-a47e-0709b94272b8/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Niamh CHARLES',
+          img: 'https://digitalhub.fifa.com/transform/43cc1516-d9ad-4b3e-86f3-9502ad81e6c5/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alex GREENWOOD',
+          img: 'https://digitalhub.fifa.com/transform/b84f5e45-1dcf-4144-8d9a-340fe9efd1fc/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Millie BRIGHT',
+          img: 'https://digitalhub.fifa.com/transform/1ca89ec7-7ad7-4924-a08f-9cab1558d5ac/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lotte WUBBEN-MOY',
+          img: 'https://digitalhub.fifa.com/transform/fd9125d7-728a-4d4f-9761-59a3eab22976/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Esme MORGAN',
+          img: 'https://digitalhub.fifa.com/transform/43ac1fc4-bc3f-4004-ba83-5eb559129d17/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jessica CARTER',
+          img: 'https://digitalhub.fifa.com/transform/7703add9-2be3-4cad-990d-c7a0478b923d/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Keira Walsh',
-        'Georgia Stanway',
-        'Ella Toone',
-        'Jordan Nobbs',
-        'Laura Coombs',
-        'Katie Zelem',
+        {
+          name: 'Keira WALSH',
+          img: 'https://digitalhub.fifa.com/transform/9ba4386a-2f31-4e8a-8b02-5ed18c469119/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Georgia STANWAY',
+          img: 'https://digitalhub.fifa.com/transform/c2249f03-be7e-4c53-ac27-0670c0d466d7/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ella TOONE',
+          img: 'https://digitalhub.fifa.com/transform/904a8f03-b080-49b7-a428-af220d36bace/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jordan NOBBS',
+          img: 'https://digitalhub.fifa.com/transform/d5bfd148-1c8e-4919-9e5e-2e51bc351b3a/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Laura COOMBS',
+          img: 'https://digitalhub.fifa.com/transform/b15eb9a8-5833-48f5-a5df-5f7cdb477326/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katie ZELEM',
+          img: 'https://digitalhub.fifa.com/transform/b545f243-a2fe-4fad-b5df-959e20b3e727/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Alessia Russo',
-        'Rachel Daly',
-        'Lauren James',
-        'Chloe Kelly',
-        'Lauren Hemp',
-        'Katie Robinson',
-        'Beth England',
+        {
+          name: 'Lauren JAMES',
+          img: 'https://digitalhub.fifa.com/transform/13aaa497-647c-4c84-a1e2-dbe21d7eb16f/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rachel DALY',
+          img: 'https://digitalhub.fifa.com/transform/6e91b1fd-72fc-4430-a1b8-6bfe1892678b/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lauren HEMP',
+          img: 'https://digitalhub.fifa.com/transform/b8e7098f-806d-4baa-83e7-752a2cae3ee4/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Chloe KELLY',
+          img: 'https://digitalhub.fifa.com/transform/03440caa-27fe-4401-849e-bf6e8f8a91e9/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Beth ENGLAND',
+          img: 'https://digitalhub.fifa.com/transform/5e18795e-9f03-45fd-a425-7bae4c1537b1/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katie ROBINSON',
+          img: 'https://digitalhub.fifa.com/transform/a0876116-6318-4ec1-b025-efa87292a378/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alessia RUSSO',
+          img: 'https://digitalhub.fifa.com/transform/7c44c789-389e-41f9-bf1b-3c53a4eee9d8/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Sarina Wiegman',
+      coach: {
+        name: 'Sarina Wiegman-Glotzbach',
+        img: 'https://digitalhub.fifa.com/transform/47a5d8df-25d9-4236-b182-c0f5a695fce7/England-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
