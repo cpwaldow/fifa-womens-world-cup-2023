@@ -1147,34 +1147,110 @@ const teams = [
     population: 83240525,
     flag: 'https://flagcdn.com/de.svg',
     players: {
-      goalkeeper: ['Ann-Katrin Berger', 'Merle Frohms', 'Stina Johannes'],
+      goalkeeper: [
+        {
+          name: 'Merle FROHMS',
+          img: 'https://digitalhub.fifa.com/transform/266f1aca-8dde-44b6-8a7e-c14cd683f5e4/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ann-Katrin BERGER',
+          img: 'https://digitalhub.fifa.com/transform/7301c4f2-8931-49fb-ac46-7c607ef6ef03/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Stina JOHANNES',
+          img: 'https://digitalhub.fifa.com/transform/fa524fde-144c-4d8e-bba6-1c8122ff87c5/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Sara Doorsoun',
-        'Marina Hegering',
-        'Kathrin Hendrich',
-        'Sophia Kleinhern',
-        'Sjoeke Nüsken',
-        'Felicitas Rauch',
+        {
+          name: 'Kathrin HENDRICH',
+          img: 'https://digitalhub.fifa.com/transform/cfc2cac0-16d6-4b28-817f-3f2344d6a27e/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sophia KLEINHERNE',
+          img: 'https://digitalhub.fifa.com/transform/ab601fc6-62ad-49e5-a445-48cd89bf8d7b/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Marina HEGERING',
+          img: 'https://digitalhub.fifa.com/transform/8b8a1733-bebe-4656-a402-12d2dfb68138/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sjoeke NUESKEN',
+          img: 'https://digitalhub.fifa.com/transform/63267ee1-9fe1-48f0-8c0a-ad51b7dd870f/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Felicitas RAUCH',
+          img: 'https://digitalhub.fifa.com/transform/f16f5df4-35bc-4ee6-bc2e-2215344f7eb0/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sara DOORSOUN',
+          img: 'https://digitalhub.fifa.com/transform/f9614814-923c-44f6-9d13-19fac2f4e2d0/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Jule Brand',
-        'Klara Bühl',
-        'Sara Däbritz',
-        'Chantal Hagel',
-        'Lena Lattwein',
-        'Melanie Leupolz',
-        'Sydney Lohmann',
-        'Lina Magull',
-        'Lena Oberdorf',
+        {
+          name: 'Chantal HAGEL',
+          img: 'https://digitalhub.fifa.com/transform/5b8e6edc-0f7b-415f-85fe-4adb9fae6836/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lena OBERDORF',
+          img: 'https://digitalhub.fifa.com/transform/778fe268-5515-4fd2-9870-9605f293fd2a/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sydney LOHMANN',
+          img: 'https://digitalhub.fifa.com/transform/db90d554-715d-4916-9451-ab20bda6b19b/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Svenja HUTH',
+          img: 'https://digitalhub.fifa.com/transform/4afc6de1-214b-4d0e-a209-797483126c2a/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sara DAEBRITZ',
+          img: 'https://digitalhub.fifa.com/transform/fae46a7f-f8f1-4ac9-9b22-2093116fcf63/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lena LATTWEIN',
+          img: 'https://digitalhub.fifa.com/transform/6734d82f-1e57-48e5-9671-3cd2c6f7eed9/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Melanie LEUPOLZ',
+          img: 'https://digitalhub.fifa.com/transform/b1c5e77a-126f-4ef7-a2d5-a32ccd625152/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Klara BUEHL',
+          img: 'https://digitalhub.fifa.com/transform/23137ff3-8722-4db6-ba35-fb986cc42349/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lina MAGULL',
+          img: 'https://digitalhub.fifa.com/transform/9dc7ba89-657a-46fd-9c2e-801d7008d40c/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jule BRAND',
+          img: 'https://digitalhub.fifa.com/transform/c0d94a93-0cb0-4bd4-9b1d-baa947748bd4/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Alexandra Popp',
-        'Svenja Huth',
-        'Laura Freigang',
-        'Lea Schüller',
-        'Nicole Anyomi',
+        {
+          name: 'Lea SCHUELLER',
+          img: 'https://digitalhub.fifa.com/transform/4a6df28e-6f06-45f6-b6ea-e9c675502530/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Laura FREIGANG',
+          img: 'https://digitalhub.fifa.com/transform/d2392e54-8135-4bcf-9b46-6224d6bc8e90/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alexandra POPP',
+          img: 'https://digitalhub.fifa.com/transform/03fc75a8-3d4d-45e0-98a3-328efb432419/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nicole ANYOMI',
+          img: 'https://digitalhub.fifa.com/transform/8b265c2e-7c9c-4aee-838f-c5c733390ba4/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Martina Voss-Tecklenburg',
+      coach: {
+        name: 'Martina Voss-Tecklenburg',
+        img: 'https://digitalhub.fifa.com/transform/df806782-1092-4e6e-9fdf-d12cb6993a55/Germany-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
