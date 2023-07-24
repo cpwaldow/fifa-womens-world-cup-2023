@@ -577,34 +577,110 @@ const teams = [
     population: 50882884,
     flag: 'https://flagcdn.com/co.svg',
     players: {
-      goalkeeper: ['Catalina Pérez', 'Nathalia Giraldo', 'Sandra Sepúlveda'],
+      goalkeeper: [
+        {
+          name: 'Catalina PEREZ',
+          img: 'https://digitalhub.fifa.com/transform/a2f2ff3d-16ce-46b8-ac0b-cd30514b13ea/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sandra SEPULVEDA',
+          img: 'https://digitalhub.fifa.com/transform/56fbdad4-ce25-4645-81bc-e6725ae48e71/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Natalia GIRALDO',
+          img: 'https://digitalhub.fifa.com/transform/019c290c-dbe7-407e-aced-08d87c3a35f9/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Ana María Guzmán',
-        'Ángela Barón',
-        'Carolina Arias',
-        'Daniela Arias',
-        'Daniela Caracas',
-        'Jorelyn Carabalí',
-        'Manuela Vanegas',
+        {
+          name: 'Manuela VANEGAS',
+          img: 'https://digitalhub.fifa.com/transform/de899e6d-3bea-4f7a-8a79-ec5cdf12686f/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Daniela ARIAS',
+          img: 'https://digitalhub.fifa.com/transform/8f0e1a50-73be-4c19-9d89-e92bef8cff09/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Angela BARON',
+          img: 'https://digitalhub.fifa.com/transform/5ca7a95b-b80e-4f96-9d78-12938e4ad34c/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ana GUZMAN',
+          img: 'https://digitalhub.fifa.com/transform/8029396d-59af-45d8-99b5-15655928b56c/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Carolina ARIAS',
+          img: 'https://digitalhub.fifa.com/transform/4e5c1db3-0fd2-41ee-a370-f954461a2e33/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jorelyn CARABALI',
+          img: 'https://digitalhub.fifa.com/transform/9e9ae1f1-0b86-4a9b-bf62-8a254c161f3a/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Monica RAMOS',
+          img: 'https://digitalhub.fifa.com/transform/669ea03d-f9ae-4fdb-a7a3-a677ede89a40/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Daniela CARACAS',
+          img: 'https://digitalhub.fifa.com/transform/ffdd7e2d-44f3-467c-b320-0f951da27d86/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Catalina Usme',
-        'Daniela Montoya',
-        'Diana Ospina',
-        'Lorena Bedoya',
-        'Marcela Restrepo',
-        'María Camila Reyes',
-        'Mónica Ramos',
+        {
+          name: 'Diana OSPINA GARCIA',
+          img: 'https://digitalhub.fifa.com/transform/34e3d0e7-d8f7-421c-856f-46b2cab93ccd/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lorena BEDOYA DURANGO',
+          img: 'https://digitalhub.fifa.com/transform/e31ac07f-cfef-4840-ab2a-43f7f580e418/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Daniela MONTOYA',
+          img: 'https://digitalhub.fifa.com/transform/d8be0427-1fd6-4f30-bdb9-a0d046945040/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maria Camila REYES',
+          img: 'https://digitalhub.fifa.com/transform/9dade575-7e1d-4813-b97c-4981e3c0e94c/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Marcela RESTREPO',
+          img: 'https://digitalhub.fifa.com/transform/df7df1ba-6648-4849-a270-77d99b6585d9/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Leicy SANTOS',
+          img: 'https://digitalhub.fifa.com/transform/9b2d8b2d-a4b4-46c1-bb2b-ae9524488a6d/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lady ANDRADE',
+          img: 'https://digitalhub.fifa.com/transform/04dbe55d-e3ba-462e-94c8-b15236eab3f2/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Elexa Bahr',
-        'Ivonne Chacón',
-        'Lady Andrade',
-        'Leicy Santos',
-        'Linda Caicedo',
-        'Mayra Ramírez',
+        {
+          name: 'Mayra RAMIREZ',
+          img: 'https://digitalhub.fifa.com/transform/6ef3c4af-94e2-46d2-8af6-9e68d4dea350/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Catalina USME',
+          img: 'https://digitalhub.fifa.com/transform/7102023a-8cad-46fa-a86a-6e8ab85ddc68/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Linda CAICEDO',
+          img: 'https://digitalhub.fifa.com/transform/a570d251-7c82-4129-9f69-ec93891fac1c/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ivonne CHACON',
+          img: 'https://digitalhub.fifa.com/transform/985f8270-f30c-437e-b8c1-0985dce12776/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Elexa BAHR',
+          img: 'https://digitalhub.fifa.com/transform/9d0de430-af46-43f6-b853-377d7ceffe9a/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Nelson Abadía',
+      coach: {
+        name: 'Nelson ABADIA',
+        img: 'https://digitalhub.fifa.com/transform/928acc20-6437-44fb-bd05-5c443a25d448/Colombia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
