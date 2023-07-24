@@ -2059,34 +2059,110 @@ const teams = [
     population: 5084300,
     flag: 'https://flagcdn.com/nz.svg',
     players: {
-      goalkeeper: ['Victoria Esson', 'Anna Leat', 'Erin Nayler'],
+      goalkeeper: [
+        {
+          name: 'Erin NAYLER',
+          img: 'https://digitalhub.fifa.com/transform/18aac4c8-9a6b-4b93-aa8b-48dcbe653aac/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Victoria ESSON',
+          img: 'https://digitalhub.fifa.com/transform/68f0963b-8308-479f-b7c9-9ad2b0ec48d0/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Anna LEAT',
+          img: 'https://digitalhub.fifa.com/transform/07ba7a5f-64fe-491e-aec9-738fa6df8418/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Liz Anton',
-        'C.J.Bott',
-        'Katie Bowen',
-        'Claudia Bunge',
-        'Michaela Foster',
-        'Ali Riley',
-        'Rebekah Stott',
+        {
+          name: 'Claudia BUNGE',
+          img: 'https://digitalhub.fifa.com/transform/0ddb2ed6-c4a6-474c-adad-e46703eed98b/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'C.J. BOTT',
+          img: 'https://digitalhub.fifa.com/transform/b7c5c211-8797-488e-90e3-1461c4992371/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Michaela FOSTER',
+          img: 'https://digitalhub.fifa.com/transform/54c31b9b-4c56-42d7-86ec-c3a38e7eb22c/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ali RILEY',
+          img: 'https://digitalhub.fifa.com/transform/0f7d4c92-8a9b-4090-a863-1321d5e6b821/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rebekah STOTT',
+          img: 'https://digitalhub.fifa.com/transform/e7859941-e3c2-44c9-a5b5-b980fe346986/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katie BOWEN',
+          img: 'https://digitalhub.fifa.com/transform/289da760-c30b-4d0c-9155-ddcae410b259/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Elizabeth ANTON',
+          img: 'https://digitalhub.fifa.com/transform/088e7045-b056-48f2-b74c-b5ec8604e66b/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Olivia Chance',
-        'Daisy Cleverley',
-        'Betsy Hassett',
-        'Annalie Longo',
-        'Ria Percival',
-        'Malia Steinmetz',
+        {
+          name: 'Ria PERCIVAL',
+          img: 'https://digitalhub.fifa.com/transform/0a53d90c-aa31-4e88-a8d3-f32e94326645/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Malia STEINMETZ',
+          img: 'https://digitalhub.fifa.com/transform/79acf504-d054-472f-b41b-dd0cca1f99cc/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Daisy CLEVERLEY',
+          img: 'https://digitalhub.fifa.com/transform/256833e0-99e6-450a-9e12-30dd754ac9a6/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Annalie LONGO',
+          img: 'https://digitalhub.fifa.com/transform/7084cafe-2ba1-4b14-9f18-5453efc265ef/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Olivia CHANCE',
+          img: 'https://digitalhub.fifa.com/transform/52442774-4d97-40de-8d7b-051d08c371af/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Betsy HASSETT',
+          img: 'https://digitalhub.fifa.com/transform/e7778cc3-0c6a-4ed3-808a-1e0ba4557e83/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Grace JALE',
+          img: 'https://digitalhub.fifa.com/transform/54f43c30-ae30-4ce7-b3fc-88b4ea158dca/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Milly Clegg',
-        'Jacqui Hand',
-        'Grace Jale',
-        'Gabi Rennie',
-        'Indiah-Paige Riley',
-        'Paige Satchell',
-        'Hannah Wilkinson',
+        {
+          name: 'Gabi RENNIE',
+          img: 'https://digitalhub.fifa.com/transform/8cd12257-4514-4c06-87fa-0ecd2cb801d0/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Paige SATCHELL',
+          img: 'https://digitalhub.fifa.com/transform/2a8a8ef7-4230-42ce-943e-dfa58202d64d/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jacqui HAND',
+          img: 'https://digitalhub.fifa.com/transform/5cb26529-a305-4e20-8872-48f2abf22c7a/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hannah WILKINSON',
+          img: 'https://digitalhub.fifa.com/transform/9aabeced-2747-4a02-ac3f-b3ef68a0b0fb/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Indiah-Paige RILEY',
+          img: 'https://digitalhub.fifa.com/transform/56ea3cca-6964-42ad-9a21-50913437bb3e/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Milly CLEGG',
+          img: 'https://digitalhub.fifa.com/transform/7650c7f9-9f14-4ec7-8581-5e89fd498fa6/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Jitka Klimková',
+      coach: {
+        name: 'Jitka KLIMKOVA',
+        img: 'https://digitalhub.fifa.com/transform/b6b99416-7102-4077-936b-5eaec5f701e3/New-Zealand-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
