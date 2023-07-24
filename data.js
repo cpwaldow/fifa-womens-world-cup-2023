@@ -2173,34 +2173,110 @@ const teams = [
     population: 206139587,
     flag: 'https://flagcdn.com/ng.svg',
     players: {
-      goalkeeper: ['Chiamaka Nnadozie', 'Tochukwu Oluehi', 'Yewande Balogun'],
+      goalkeeper: [
+        {
+          name: 'Tochukwu OLUEHI',
+          img: 'https://digitalhub.fifa.com/transform/5cc52c87-f322-4e9e-b217-3f704bf025e9/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Chiamaka NNADOZIE',
+          img: 'https://digitalhub.fifa.com/transform/8166ff21-ecd6-4161-9ca8-2621854d6658/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Zainab BALOGUN',
+          img: 'https://digitalhub.fifa.com/transform/221165ff-f5d2-4e78-8794-7e2ac5fa076b/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Onome Ebi',
-        'Osinachi Ohale',
-        'Glory Ogbonna',
-        'Ashleigh Pluptre',
-        'Rofiat Imuran',
-        'Michelle Alozie',
-        'Oluwatosin Demehin',
+        {
+          name: 'Ashleigh PLUMPTRE',
+          img: 'https://digitalhub.fifa.com/transform/6a780b76-e330-480d-916c-f2827e2881f2/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Osinachi OHALE',
+          img: 'https://digitalhub.fifa.com/transform/4333d20d-04e9-45af-8ec0-237fde83110c/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Glory OGBONNA',
+          img: 'https://digitalhub.fifa.com/transform/571539f7-e8f5-4c93-8c1f-472d85fa95af/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Onome EBI',
+          img: 'https://digitalhub.fifa.com/transform/4ed9e40b-971f-4370-bcd9-692af04f8a8a/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Blessing DEMEHIN',
+          img: 'https://digitalhub.fifa.com/transform/f0fbe974-a000-4016-8fe9-8a0b466c30d6/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rofiat IMURAN',
+          img: 'https://digitalhub.fifa.com/transform/58509d8b-8c71-47e9-8e47-0714e563f709/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Michelle ALOZIE',
+          img: 'https://digitalhub.fifa.com/transform/78e46543-6a9b-4b95-90b4-77a2d6cda4f6/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Halimatu Ayinde',
-        'Rasheedat Ajibade',
-        'Toni Payne',
-        'Christy Ucheibe',
-        'Debora Abiodun',
-        'Jennifer Echegini',
+        {
+          name: 'Toni PAYNE',
+          img: 'https://digitalhub.fifa.com/transform/330e9f6a-1db1-4494-ad80-065ce5b2c4a8/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Christy UCHEIBE',
+          img: 'https://digitalhub.fifa.com/transform/35ad4887-b701-46e7-92d0-37c19bcc053f/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Deborah ABIODUN',
+          img: 'https://digitalhub.fifa.com/transform/6c930846-0809-4dbb-a372-5ff974006445/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rasheedat AJIBADE',
+          img: 'https://digitalhub.fifa.com/transform/862aede9-cdcc-4d89-96a7-b64baf41dadf/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Halimatu AYINDE',
+          img: 'https://digitalhub.fifa.com/transform/7c1abc44-2462-45da-bf16-e448de098246/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jennifer ECHEGINI',
+          img: 'https://digitalhub.fifa.com/transform/83a32ce8-fd36-46d6-af31-045a4b366f55/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Uchenna Kanu',
-        'Gift Monday',
-        'Ifeoma Onumonu',
-        'Asisat Oshoala',
-        'Desire Oparanozie',
-        'Francisca Ordega',
-        'Esther Okoronkwo',
+        {
+          name: 'Ifeoma ONUMONU',
+          img: 'https://digitalhub.fifa.com/transform/b1857bc9-c860-4363-9c64-0bb684c6bd81/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Asisat OSHOALA',
+          img: 'https://digitalhub.fifa.com/transform/b8aebb97-54c9-4c8e-9615-2ee9ac73e7bf/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Desire OPARANOZIE',
+          img: 'https://digitalhub.fifa.com/transform/b072a565-a3aa-4f53-80d6-d90a889c5baa/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Gift MONDAY',
+          img: 'https://digitalhub.fifa.com/transform/cf614837-b3ed-44fc-92de-9e78da65212d/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Uchenna KANU',
+          img: 'https://digitalhub.fifa.com/transform/ba51a891-4b6e-4436-9262-6d4c03e4bb06/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Francisca ORDEGA',
+          img: 'https://digitalhub.fifa.com/transform/d73e9ecb-c011-486b-b856-ebebd366f5d7/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Esther OKORONKWO',
+          img: 'https://digitalhub.fifa.com/transform/5777506c-b286-43a3-8b6f-05b1234e4980/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Randy Waldrum',
+      coach: {
+        name: 'Randy WALDRUM',
+        img: 'https://digitalhub.fifa.com/transform/480f27de-a1bb-4095-8ed7-3915216860e6/Nigeria-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
