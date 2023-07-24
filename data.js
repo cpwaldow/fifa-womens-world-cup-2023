@@ -1375,34 +1375,110 @@ const teams = [
     population: 59554023,
     flag: 'https://flagcdn.com/it.svg',
     players: {
-      goalkeeper: ['Laura Giuliane', 'Francesca Durante', 'Rachele Baldi'],
+      goalkeeper: [
+        {
+          name: 'Laura GIULIANI',
+          img: 'https://digitalhub.fifa.com/transform/b2cb8b70-c209-4221-8baa-3fc1d2af16d2/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rachele BALDI',
+          img: 'https://digitalhub.fifa.com/transform/2d9fff7f-a8e0-425e-a0d8-27c1c963fce6/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Francesca DURANTE',
+          img: 'https://digitalhub.fifa.com/transform/f6d47b37-ed5c-454d-b9f8-67cac1be3304/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Elena Linari',
-        'Elisa Bartoli',
-        'Lisa Boattin',
-        'Cecilia Salvai',
-        'Martina Lenzini',
-        'Lucia Di Guglielmo',
-        'Benedetta Orsi',
+        {
+          name: 'Benedetta ORSI',
+          img: 'https://digitalhub.fifa.com/transform/f26c5037-b593-476a-b2c9-f4cd8f9a46ba/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lucia DI GUGLIELMO',
+          img: 'https://digitalhub.fifa.com/transform/44522504-dcf8-4bb8-81f4-7d9e2389e0e0/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Elena LINARI',
+          img: 'https://digitalhub.fifa.com/transform/fe57ca09-0e03-48f6-829c-e06b9cf38845/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Elisa BARTOLI',
+          img: 'https://digitalhub.fifa.com/transform/0729cdd0-fda8-4b4f-a321-2e94f5c3786b/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lisa BOATTIN',
+          img: 'https://digitalhub.fifa.com/transform/8c577966-84f9-430a-8a9a-e34c3eba6f2c/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Martina LENZINI',
+          img: 'https://digitalhub.fifa.com/transform/14d5c09e-287a-493b-944e-c060ad60af7d/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Cecilia SALVAI',
+          img: 'https://digitalhub.fifa.com/transform/400d1aa0-606d-4872-bd35-b8b015fc0da1/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Valentina Cernoia',
-        'Manuela Giugliano',
-        'Arianna Caruso',
-        'Giada Greggi',
-        'Emma Severini',
-        'Giulia Dragoni',
+        {
+          name: 'Emma SEVERINI',
+          img: 'https://digitalhub.fifa.com/transform/cd0aea70-1419-4753-adb2-046f1fa0fb22/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Manuela GIUGLIANO',
+          img: 'https://digitalhub.fifa.com/transform/4bc15e32-ef8e-4a84-9247-317631171087/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Giulia DRAGONI',
+          img: 'https://digitalhub.fifa.com/transform/0bf9e6d5-b43a-44a7-993f-b96f2ff714b9/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Arianna CARUSO',
+          img: 'https://digitalhub.fifa.com/transform/619917db-6068-4218-9c6e-4ebaef1969cd/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Giada GREGGI',
+          img: 'https://digitalhub.fifa.com/transform/001ef0bd-1d69-408f-8f54-846cdb102185/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Valentina CERNOIA',
+          img: 'https://digitalhub.fifa.com/transform/4c8b4c46-5e22-4d7c-8217-7ae5be37b661/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Cristiana Girelli',
-        'Barbara Bonansea',
-        'Valentina Giacinti',
-        'Annamaria Serturini',
-        'Benedetta Glionna',
-        'Sofia Cantore',
-        'Chiara Beccari',
+        {
+          name: 'Sofia CANTORE',
+          img: 'https://digitalhub.fifa.com/transform/910da97b-6b2a-4c66-ba9d-d9933f940c6e/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Barbara BONANSEA',
+          img: 'https://digitalhub.fifa.com/transform/691f30d0-89b5-415f-95e2-b79f05adbfc0/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Valentina GIACINTI',
+          img: 'https://digitalhub.fifa.com/transform/a4d8c33e-1373-4a2a-b547-3b89fe8a6145/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Cristiana GIRELLI',
+          img: 'https://digitalhub.fifa.com/transform/bb310606-9e8d-4770-a261-264afc71395c/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Benedetta GLIONNA',
+          img: 'https://digitalhub.fifa.com/transform/33dd9ef0-7293-474b-9846-a5ea21958ca0/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Chiara BECCARI',
+          img: 'https://digitalhub.fifa.com/transform/6d6e0a2e-e677-4502-abb8-5d165d6e283c/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Annamaria SERTURINI',
+          img: 'https://digitalhub.fifa.com/transform/0dc5f81d-0a64-4c16-84a7-fa47c095e112/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Milena Bertolini',
+      coach: {
+        name: 'Milena Bertolini',
+        img: 'https://digitalhub.fifa.com/transform/ad9236a4-6d19-4b52-a03e-5dcccc48f3c8/Italy-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
@@ -1817,7 +1893,7 @@ const teams = [
         'Andreia Jacinto',
         'Dolores Silva',
         'Fátima Pinto',
-        'Francisca \'Kika\' Nazareth',
+        "Francisca 'Kika' Nazareth",
         'Tatiana Pinto',
       ],
       attacker: [
@@ -1841,17 +1917,17 @@ const teams = [
     players: {
       goalkeeper: ['Courtney Brosnan', 'Grace Moloney', 'Megan Walsh'],
       defender: [
-        'Aine O\'Gorman',
+        "Aine O'Gorman",
         'Niamh Fahey',
         'Louise Quinn',
         'Diane Caldwell',
         'Heather Payne',
-        'Claire O\'Riordan',
+        "Claire O'Riordan",
         'Chloe Mustaki',
         'Isibeal Atkinson',
       ],
       midfield: [
-        'Denise O\'Sullivan',
+        "Denise O'Sullivan",
         'Katie McCabe',
         'Ruesha Littlejohn',
         'Megan Connolly',
@@ -2033,7 +2109,7 @@ const teams = [
       defender: [
         'Sofia Herta',
         'Naomi Girma',
-        'Kelley O\'Hara',
+        "Kelley O'Hara",
         'Alana Cook',
         'Emily Sonnett',
         'Crystal Dunn',
