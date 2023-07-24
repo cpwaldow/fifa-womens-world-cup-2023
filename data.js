@@ -1946,44 +1946,109 @@ const teams = [
     flag: 'https://flagcdn.com/nl.svg',
     players: {
       goalkeeper: [
-        'Daphne van Domselaar',
-        'Lize Kop',
-        'Barbara Lorsheyd',
-        'Jacintha Weimar',
+        {
+          name: 'Daphne VAN DOMSELAAR',
+          img: 'https://digitalhub.fifa.com/transform/c67e979a-944a-46a1-ae23-3fff2ab5a2f3/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lize KOP',
+          img: 'https://digitalhub.fifa.com/transform/1c186ced-7a87-4966-88b5-b31268f6db35/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jacintha WEIMAR',
+          img: 'https://digitalhub.fifa.com/transform/f9084f29-3f5c-4c44-a450-4f2ec4f235ef/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       defender: [
-        'Stefanie van der Gragt',
-        'Dominique Janssen',
-        'Kika van Es',
-        'Merel van Dongen',
-        'Aniek Nouwen',
-        'Lynn Wilms',
-        'Caitlin Dijkstra',
-        'Alieke Tuin',
+        {
+          name: 'Lynn WILMS',
+          img: 'https://digitalhub.fifa.com/transform/0fa442f6-0dee-4bc9-8f64-3a4ecc279ddf/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Stefanie VAN DER GRAGT',
+          img: 'https://digitalhub.fifa.com/transform/2f632638-99f4-484e-814a-66bceffa6fb9/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Aniek NOUWEN',
+          img: 'https://digitalhub.fifa.com/transform/f020351e-0bf2-4907-ae95-cfc13f4dfafd/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Merel VAN DONGEN',
+          img: 'https://digitalhub.fifa.com/transform/4ba99a47-7e4f-4ec5-acd9-abcdc41aec23/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Caitlin DIJKSTRA',
+          img: 'https://digitalhub.fifa.com/transform/b8a4b8aa-3b02-46e8-b60f-42bdedab9fd6/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kerstin CASPARIJ',
+          img: 'https://digitalhub.fifa.com/transform/2327b7ce-691a-4c29-a9c2-1322184bc48a/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Dominique JANSSEN',
+          img: 'https://digitalhub.fifa.com/transform/f08c1558-771a-44b9-a88c-eab8705862b1/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Sherida Spitse',
-        'Danielle van de Donk',
-        'Jackie Groenen',
-        'Jill Roord',
-        'Victoria Pelova',
-        'Karstin Casparij',
-        'Damaris Egurrola',
-        'Jil Baijings',
-        'Wieke Kaptein',
+        {
+          name: 'Jill ROORD',
+          img: 'https://digitalhub.fifa.com/transform/602ae17d-753e-459d-a932-7000fbcd2d92/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sherida SPITSE',
+          img: 'https://digitalhub.fifa.com/transform/35a332ef-19f7-4c3b-9615-a5e680c33329/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Danielle VAN DE DONK',
+          img: 'https://digitalhub.fifa.com/transform/9a8d74ab-d7c4-4872-95a3-cdc340240ed3/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jill BAIJINGS',
+          img: 'https://digitalhub.fifa.com/transform/f7e33bb3-9b52-4470-b5f6-38f6c632afc6/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jackie GROENEN',
+          img: 'https://digitalhub.fifa.com/transform/f80f576a-679a-4448-b966-34264040b420/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Victoria PELOVA',
+          img: 'https://digitalhub.fifa.com/transform/8eaab075-cb4b-4845-ad6a-4e6a9190bb1f/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Wieke KAPTEIN',
+          img: 'https://digitalhub.fifa.com/transform/b9bda4cf-2d5a-48e1-9e91-5228c8393460/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Damaris EGURROLA',
+          img: 'https://digitalhub.fifa.com/transform/968bcdce-e0ea-4754-be53-2a22d2092ab6/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Lieke Martens',
-        'Shanice van de Sanden',
-        'Lineth Beerensteyn',
-        'Renate Jansen',
-        'Esmee Brugts',
-        'Katja Snoeijs',
-        'Roméen Leuchter',
-        'Fenna Kalma',
-        'Tiny Hoekstra',
+        {
+          name: 'Lineth BEERENSTEYN',
+          img: 'https://digitalhub.fifa.com/transform/ea6d8589-27b7-4c86-9b58-916658c0c887/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katja SNOEIJS',
+          img: 'https://digitalhub.fifa.com/transform/16639cbf-61c3-4968-a267-40cdc9697e86/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lieke MARTENS',
+          img: 'https://digitalhub.fifa.com/transform/df2e6e56-2ca1-4e58-9e70-65ca4d2aa82c/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Renate JANSEN',
+          img: 'https://digitalhub.fifa.com/transform/51998ee1-b5ae-4098-aa3d-59ad7b3bfb9c/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Esmee BRUGTS',
+          img: 'https://digitalhub.fifa.com/transform/e9b33e5c-a9d0-46d2-a90a-912fa33775f3/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Andries Jonker',
+      coach: {
+        name: 'Andries JONKER',
+        img: 'https://digitalhub.fifa.com/transform/ed1274f3-92c4-4e82-ad31-253711602ed2/Netherlands-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
