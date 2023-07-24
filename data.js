@@ -1817,7 +1817,7 @@ const teams = [
         'Andreia Jacinto',
         'Dolores Silva',
         'Fátima Pinto',
-        "Francisca 'Kika' Nazareth",
+        'Francisca \'Kika\' Nazareth',
         'Tatiana Pinto',
       ],
       attacker: [
@@ -1841,17 +1841,17 @@ const teams = [
     players: {
       goalkeeper: ['Courtney Brosnan', 'Grace Moloney', 'Megan Walsh'],
       defender: [
-        "Aine O'Gorman",
+        'Aine O\'Gorman',
         'Niamh Fahey',
         'Louise Quinn',
         'Diane Caldwell',
         'Heather Payne',
-        "Claire O'Riordan",
+        'Claire O\'Riordan',
         'Chloe Mustaki',
         'Isibeal Atkinson',
       ],
       midfield: [
-        "Denise O'Sullivan",
+        'Denise O\'Sullivan',
         'Katie McCabe',
         'Ruesha Littlejohn',
         'Megan Connolly',
@@ -2033,7 +2033,7 @@ const teams = [
       defender: [
         'Sofia Herta',
         'Naomi Girma',
-        "Kelley O'Hara",
+        'Kelley O\'Hara',
         'Alana Cook',
         'Emily Sonnett',
         'Crystal Dunn',
