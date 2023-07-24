@@ -1489,34 +1489,110 @@ const teams = [
     population: 2961161,
     flag: 'https://flagcdn.com/jm.svg',
     players: {
-      goalkeeper: ['Rebecca Spencer', 'Sydney Schneider', 'Liya Brooks'],
+      goalkeeper: [
+        {
+          name: 'Sydney SCHNEIDER',
+          img: 'https://digitalhub.fifa.com/transform/e4454f54-8e73-4136-864b-da936b3682c8/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rebecca SPENCER',
+          img: 'https://digitalhub.fifa.com/transform/2a068749-92e8-4cca-a98e-23eddf902b41/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Liya BROOKS',
+          img: 'https://digitalhub.fifa.com/transform/8a7fce2d-13c1-41eb-85ae-6dbb62a36809/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Allyson Swaby',
-        'Chatelle Swaby',
-        'Konya Plummer',
-        'Deneisha Blackwood',
-        'Vyan Sampson',
-        'Tiernny Wiltshire',
+        {
+          name: 'Vyan SAMPSON',
+          img: 'https://digitalhub.fifa.com/transform/99948dd5-3e19-4a0e-b494-133e494ace11/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Chantelle SWABY',
+          img: 'https://digitalhub.fifa.com/transform/9d4ceec6-c744-4ed7-850a-06fad6767f03/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Konya PLUMMER',
+          img: 'https://digitalhub.fifa.com/transform/ed2e9c1a-cb27-4bb5-b8bd-f46a1b4f4e87/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Deneisha BLACKWOOD',
+          img: 'https://digitalhub.fifa.com/transform/487fb877-8502-4044-bd5f-ead423a6bcf6/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Allyson SWABY',
+          img: 'https://digitalhub.fifa.com/transform/c1c3e87d-ab74-4d6e-b3f3-8c130921306d/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Peyton McNamara',
-        'Drew Spence',
-        'Trudi Carter',
-        'Solai Washington',
-        'Atlanta Primus',
-        'Havana Solaun',
+        {
+          name: 'Solai WASHINGTON',
+          img: 'https://digitalhub.fifa.com/transform/d219776c-f7fb-4b08-ab95-e383edabc571/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Havana SOLAUN',
+          img: 'https://digitalhub.fifa.com/transform/7d3b0184-8a63-43d0-a7f4-cf360e1d7d22/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Peyton McNAMARA',
+          img: 'https://digitalhub.fifa.com/transform/a883ae6a-e261-473b-b577-a8586520143b/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Drew SPENCE',
+          img: 'https://digitalhub.fifa.com/transform/a015b2de-d262-4004-b6fa-23b3aeb6e81b/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jody BROWN',
+          img: 'https://digitalhub.fifa.com/transform/44cd8a3d-afc9-48e1-9c93-053b3e34f745/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kalyssa VAN ZANTEN',
+          img: 'https://digitalhub.fifa.com/transform/e63c5983-57d8-47bc-aede-6becf0520c56/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Tiffany CAMERON',
+          img: 'https://digitalhub.fifa.com/transform/fcba999b-6362-4af2-9b21-f50f6da1bcd7/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Paige BAILEY-GAYLE',
+          img: 'https://digitalhub.fifa.com/transform/fcbbc58c-d373-497b-8e05-b6f64864c447/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Trudi CARTER',
+          img: 'https://digitalhub.fifa.com/transform/11b709cb-cd1c-45fa-beff-1159cba77314/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Tiernny WILTSHIRE',
+          img: 'https://digitalhub.fifa.com/transform/bf2e9cc5-3e01-42b5-86c3-9989858e546e/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Atlanta PRIMUS',
+          img: 'https://digitalhub.fifa.com/transform/027ef2da-c8f2-4e1d-bd38-2e16cf62ba58/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kayla McKENNA',
+          img: 'https://digitalhub.fifa.com/transform/ed9a9b98-8094-42e3-a87d-c70026dff8a3/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'hadija "Bunny" Shaw',
-        'Jody Brown',
-        'Tiffany Cameron',
-        'Kameron Simmonds',
-        'Kiki van Zanten',
-        'Paige Bailey-Gayle',
-        'Cheyna Matthews',
-        'Kayla McKenna',
+        {
+          name: 'Kameron SIMMONDS',
+          img: 'https://digitalhub.fifa.com/transform/76a14d4e-c113-4d9c-8bb1-f1dd45c903f7/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Khadija SHAW',
+          img: 'https://digitalhub.fifa.com/transform/0e2ff671-673c-4da1-96f0-74f0a6f9d6c2/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Cheyna MATTHEWS',
+          img: 'https://digitalhub.fifa.com/transform/98a11fcb-9c70-41ae-8abc-96cff18c4635/Jamaica-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Lorne Donaldson',
+      coach: {
+        name: 'Lorne DONALDSON',
+        img: 'https://digitalhub.fifa.com/transform/4e276dc9-2567-42f2-913c-e6850af0ce65/DONALDSON-Lorne-48674?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
