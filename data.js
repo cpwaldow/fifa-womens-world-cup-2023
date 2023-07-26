@@ -2287,35 +2287,110 @@ const teams = [
     population: 5379475,
     flag: 'https://flagcdn.com/no.svg',
     players: {
-      goalkeeper: ['Cecilie Fiskerstrand', 'Aurora Mikalsen', 'Guro Pettersen'],
+      goalkeeper: [
+        {
+          name: 'Cecilie FISKERSTRAND',
+          img: 'https://digitalhub.fifa.com/transform/be5738a5-0630-4483-a54e-93caf4c7ff7c/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Guro PETTERSEN',
+          img: 'https://digitalhub.fifa.com/transform/b19e4997-ae21-4375-9ee6-e284fc390cc3/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Aurora MIKALSEN',
+          img: 'https://digitalhub.fifa.com/transform/b52e9f92-d674-41e1-b912-f374c044a71e/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Maren Mjelde',
-        'Anja Sonstevold',
-        'Tuva Hansen',
-        'Guro Bergsvand',
-        'Mathilde Harviken',
-        'Marit Lund',
-        'Sara Horte',
-        '.',
+        {
+          name: 'Anja SONSTEVOLD',
+          img: 'https://digitalhub.fifa.com/transform/81bc9661-28a4-4292-9415-03b9c3ae46b2/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sara HORTE',
+          img: 'https://digitalhub.fifa.com/transform/8601b227-a2a4-424d-a7a6-34c5a5d0212e/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Tuva HANSEN',
+          img: 'https://digitalhub.fifa.com/transform/645998de-ca8d-409c-a2fc-d9762da0f700/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Guro BERGSVAND',
+          img: 'https://digitalhub.fifa.com/transform/b43f16cf-eb04-42a8-8cb9-6e7f74a6ee11/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Maren MJELDE',
+          img: 'https://digitalhub.fifa.com/transform/c0c7a731-03a1-4540-a3ea-d116b81cfea2/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Thea BJELDE',
+          img: 'https://digitalhub.fifa.com/transform/0ad794c5-cddb-49c4-86ed-6fab2681268d/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Mathilde HARVIKEN',
+          img: 'https://digitalhub.fifa.com/transform/c57a2670-b046-4257-bf61-004c7338d08d/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Marit BRATBERG LUND',
+          img: 'https://digitalhub.fifa.com/transform/ce79b719-8931-4a29-bd30-851d87a13959/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Guro Reiten',
-        'Frida Maanum',
-        'Vilde Rise',
-        'Ingrid Engen',
-        'Amalie Eikeland',
-        'Julie Blakstad',
-        'Thea Bjelde',
+        {
+          name: 'Ingrid SYRSTAD ENGEN',
+          img: 'https://digitalhub.fifa.com/transform/0e5bab1e-a419-486a-8bc8-79d6e5ed3670/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Vilde BOE RISA',
+          img: 'https://digitalhub.fifa.com/transform/dfcc9f3d-c6a4-460c-86ed-14a961214c59/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Guro REITEN',
+          img: 'https://digitalhub.fifa.com/transform/f8297726-eaa5-4ec7-ab7f-f56ea91f8046/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Frida MAANUM',
+          img: 'https://digitalhub.fifa.com/transform/c9add999-a9f8-4b26-be89-99f55ad20b24/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Carolina Graham Hansen',
-        'Emilie Haavi',
-        'Ada Hegerberg',
-        'Karina Saevik',
-        'Sophie Haug',
-        'Anna Josendal',
+        {
+          name: 'Karina SAEVIK',
+          img: 'https://digitalhub.fifa.com/transform/8027c393-02e8-41b2-b4aa-7d88db68fabd/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Caroline GRAHAM HANSEN',
+          img: 'https://digitalhub.fifa.com/transform/011c7f9d-eece-42b4-9b96-d4965779c7fc/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ada HEGERBERG',
+          img: 'https://digitalhub.fifa.com/transform/2f817109-fdec-4b6c-83e9-69c763974fee/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Amalie EIKELAND',
+          img: 'https://digitalhub.fifa.com/transform/9fa9ad80-3948-46a3-9cc3-fc66ac365694/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Julie BLAKSTAD',
+          img: 'https://digitalhub.fifa.com/transform/6fd1546e-8632-4bbd-89c3-9e911fbaad3b/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Emilie HAAVI',
+          img: 'https://digitalhub.fifa.com/transform/5788b8e1-2403-4364-aee4-846bab55628b/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Anna JOSENDAL',
+          img: 'https://digitalhub.fifa.com/transform/25aefbac-5f90-4bc7-beee-92e24538f527/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sophie ROMAN HAUG',
+          img: 'https://digitalhub.fifa.com/transform/aa2dfbaa-6e50-4b02-a605-63c994833b97/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Hege Riise',
+      coach: {
+        name: 'Hege Riise',
+        img: 'https://digitalhub.fifa.com/transform/5a9b0870-9f08-4174-95b1-8da1479c1ded/Norway-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
