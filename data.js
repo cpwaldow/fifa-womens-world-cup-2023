@@ -2626,34 +2626,110 @@ const teams = [
     population: 10305564,
     flag: 'https://flagcdn.com/pt.svg',
     players: {
-      goalkeeper: ['Rute Costa', 'Inês Pereira', 'Patrícia Morais'],
+      goalkeeper: [
+        {
+          name: 'INES PEREIRA',
+          img: 'https://digitalhub.fifa.com/transform/38a3c309-9709-4b8a-a973-28188acdda90/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'PATRICIA MORAIS',
+          img: 'https://digitalhub.fifa.com/transform/1145d4e6-fe10-4048-a351-b3b3a0243966/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'RUTE COSTA',
+          img: 'https://digitalhub.fifa.com/transform/efd1d745-a1ac-4cbb-82b0-0f7cd4d2ac01/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Ana Seiça',
-        'Carole Costa',
-        'Catarina Amado',
-        'Diana Gomes',
-        'Joana Marchão',
-        'Lúcia Alves',
-        'Sílvia Rebelo',
+        {
+          name: 'CATARINA AMADO',
+          img: 'https://digitalhub.fifa.com/transform/90c33335-a3e2-4d9e-90ba-b239c049e962/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'LUCIA ALVES',
+          img: 'https://digitalhub.fifa.com/transform/d4caf1e8-474a-4824-92c1-1a8879815021/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'SILVIA REBELO',
+          img: 'https://digitalhub.fifa.com/transform/50d72525-5bad-4ee2-94ee-165ace3c0a40/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'JOANA MARCHAO',
+          img: 'https://digitalhub.fifa.com/transform/7d68f3e8-a008-4bde-ad7e-4629eba5fe80/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ANA BORGES',
+          img: 'https://digitalhub.fifa.com/transform/c3afe86c-1f5a-4c98-9061-0654f4d0530a/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'CAROLE COSTA',
+          img: 'https://digitalhub.fifa.com/transform/1b8179f6-b163-4573-a4bb-711c83b2d1a4/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ANA SEICA',
+          img: 'https://digitalhub.fifa.com/transform/7507614a-3212-4169-a9a3-dac35ac39cd0/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'DIANA GOMES',
+          img: 'https://digitalhub.fifa.com/transform/ea8b1c85-c24a-4622-918f-e3bf8431b612/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Ana Rute',
-        'Andreia Norton',
-        'Andreia Jacinto',
-        'Dolores Silva',
-        'Fátima Pinto',
-        "Francisca 'Kika' Nazareth",
-        'Tatiana Pinto',
+        {
+          name: 'ANDREIA JACINTO',
+          img: 'https://digitalhub.fifa.com/transform/1b8ac0fd-b76f-470c-8277-74ac56350cb5/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ANA RUTE',
+          img: 'https://digitalhub.fifa.com/transform/ee4bddf2-4667-456e-a365-86cf0e50de28/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ANDREIA NORTON',
+          img: 'https://digitalhub.fifa.com/transform/0eeaaa7d-3a89-45e9-ad3a-a842af4f489b/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'TATIANA PINTO',
+          img: 'https://digitalhub.fifa.com/transform/4e30f480-e477-4a45-8401-0c559fc2c758/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'FATIMA PINTO',
+          img: 'https://digitalhub.fifa.com/transform/7bfe87fd-e801-4af9-8705-68ac2d8f70fd/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'DOLORES SILVA',
+          img: 'https://digitalhub.fifa.com/transform/18978e23-66f7-4d52-9c2e-6def1e34418d/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Ana Borges',
-        'Ana Capeta',
-        'Carolina Mendes',
-        'Diana Silva',
-        'Jéssica Silva',
-        'Telma Encarnação',
+        {
+          name: 'JESSICA SILVA',
+          img: 'https://digitalhub.fifa.com/transform/7528ae61-6a6c-48e0-81b1-483d30a35dc1/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'DIANA SILVA',
+          img: 'https://digitalhub.fifa.com/transform/a9c58e82-3ca1-4a70-8e00-86c6af42c011/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'CAROLINA MENDES',
+          img: 'https://digitalhub.fifa.com/transform/9b4b3c25-2342-4870-9457-8e9bc1825c5d/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'KIKA NAZARETH',
+          img: 'https://digitalhub.fifa.com/transform/60bd4c33-7054-405e-94c1-98cac1a0e180/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'ANA CAPETA',
+          img: 'https://digitalhub.fifa.com/transform/4aabc0f3-513e-4176-9320-85df1f633ce0/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'TELMA ENCARNACAO',
+          img: 'https://digitalhub.fifa.com/transform/941265eb-0253-4ee3-a81e-f3b86d04e666/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Francisco Neto',
+      coach: {
+        name: 'Francisco Neto',
+        img: 'https://digitalhub.fifa.com/transform/bf93e0a4-beec-45ee-ba5b-c1a835f4f5ca/Portugal-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
