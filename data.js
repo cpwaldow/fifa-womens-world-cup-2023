@@ -2512,34 +2512,110 @@ const teams = [
     population: 109581085,
     flag: 'https://flagcdn.com/ph.svg',
     players: {
-      goalkeeper: ['Kiara Fontanilla', 'Kaiya Jota', 'Olivia McDaniel'],
+      goalkeeper: [
+        {
+          name: 'Olivia McDANIEL',
+          img: 'https://digitalhub.fifa.com/transform/e5f76629-7704-4d3c-8a5e-3305c8594156/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kaiya JOTA',
+          img: 'https://digitalhub.fifa.com/transform/774a7a97-cccb-47b4-8ffd-a82f2e90d971/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Kiara FONTANILLA',
+          img: 'https://digitalhub.fifa.com/transform/b235e13f-90d4-45ab-bfc7-16612596c4e2/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Maya Alcantara',
-        'Alicia Barker',
-        'Angela Beard',
-        'Reina Bonta',
-        'Malea Cesar',
-        'Jessika Cowart',
-        'Hali Long',
-        'Sofia Harrison',
-        'Dominique Randle',
+        {
+          name: 'Malea CESAR',
+          img: 'https://digitalhub.fifa.com/transform/a60d4812-5053-4cfa-b4e2-d400b402d5a3/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Jessika COWART',
+          img: 'https://digitalhub.fifa.com/transform/d08b56cb-28e6-457d-b8df-b65a4541d093/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Hali LONG',
+          img: 'https://digitalhub.fifa.com/transform/087aead2-16c2-4d57-8d63-1aad2c7a2f45/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Angela BEARD',
+          img: 'https://digitalhub.fifa.com/transform/415535ce-deb3-4376-9023-757919bfafc3/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sofia HARRISON',
+          img: 'https://digitalhub.fifa.com/transform/7d458445-8ec3-447a-aef1-d6c48b11df8b/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Alicia BARKER',
+          img: 'https://digitalhub.fifa.com/transform/84ff5d44-9f5c-4a40-af42-731e23ad97b4/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Dominique RANDLE',
+          img: 'https://digitalhub.fifa.com/transform/fdb95cbf-8420-4058-b96a-0ba962fad2ba/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Reina BONTA',
+          img: 'https://digitalhub.fifa.com/transform/1af67a2b-bba7-4f78-969b-75d1ab28d6c8/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Tahnai Annis',
-        'Anicka Castañeda',
-        'Sara Eggesvik',
-        'Quinley Quezada',
-        'Jaclyn Sawicki',
+        {
+          name: 'Jaclyn SAWICKI',
+          img: 'https://digitalhub.fifa.com/transform/62ada1b5-5bc6-4160-b460-b4837c582ca2/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Tahnai ANNIS',
+          img: 'https://digitalhub.fifa.com/transform/7924bd75-debb-40da-93c7-8018dd9cf815/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sara EGGESVIK',
+          img: 'https://digitalhub.fifa.com/transform/42c87672-bef0-48b4-9871-b2978359cedb/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Anicka CASTANEDA',
+          img: 'https://digitalhub.fifa.com/transform/2443baeb-b8b8-44d0-aa12-e58ad32812ae/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Ryley BUGAY',
+          img: 'https://digitalhub.fifa.com/transform/98c2b091-4ca2-4aa9-8b96-2cb81b80efd5/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Meryll SERRANO',
+          img: 'https://digitalhub.fifa.com/transform/e41ee115-db4a-4cd3-ba50-4ee705348eaf/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Quinley QUEZADA',
+          img: 'https://digitalhub.fifa.com/transform/83aee8f0-4d66-4475-828f-48b6a1c92c13/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Sarina BOLDEN',
+          img: 'https://digitalhub.fifa.com/transform/a6d64456-6b86-43b8-957f-ac59e927d6ba/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       attacker: [
-        'Sarina Bolden',
-        'Isabella Flanigan',
-        'Carleigh Frilles',
-        'Katrina Guillou',
-        'Chadler McDaniel',
-        'Meryll Serrano',
+        {
+          name: 'Isabella FLANIGAN',
+          img: 'https://digitalhub.fifa.com/transform/b2790b48-201a-46ec-b787-16ddb9f1efe9/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Chandler McDANIEL',
+          img: 'https://digitalhub.fifa.com/transform/707609fd-386e-4a03-b19d-f996e565b0fc/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Carleigh FRILLES',
+          img: 'https://digitalhub.fifa.com/transform/af52ebc0-6ea7-4a61-8db5-d6f1362bbf11/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katrina GUILLOU',
+          img: 'https://digitalhub.fifa.com/transform/7426ca7c-ce87-48d7-a664-78bc7d002c49/Philippines-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      coach: 'Alen Stajcic',
+      coach: {
+        name: 'Alen Stajcic',
+        img: 'https://digitalhub.fifa.com/transform/3e1c17ea-931d-42b1-9411-9250a313a1ae/STAJCIC-Alen_255000?io=transform:fill,width:264,height:300',
+      },
     },
   },
   {
