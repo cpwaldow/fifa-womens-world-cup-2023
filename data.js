@@ -2401,29 +2401,106 @@ const teams = [
     population: 4314768,
     flag: 'https://flagcdn.com/pa.svg',
     players: {
-      goalkeeper: ['Sasha Fábrega', 'Yenith Bailey', 'Farissa Córdoba'],
+      goalkeeper: [
+        {
+          name: 'Sasha FABREGA',
+          img: 'https://digitalhub.fifa.com/transform/2c0f0ddb-21da-4f4f-8239-4cd20d2e8259/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Yenith BAILEY',
+          img: 'https://digitalhub.fifa.com/transform/7fc214d3-c9d6-41d9-ad60-77fdc07917d5/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Farissa CORDOBA',
+          img: 'https://digitalhub.fifa.com/transform/52392abe-e0c5-4137-8535-b33256588b93/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       defender: [
-        'Hilary Jaén',
-        'Wendy Natis',
-        'Katherine Castillo',
-        'Yomira Pinzón',
-        'Rosario Vargas',
-        'Rebeca Espinosa',
-        'Nicole de Obaldía',
-        'CArina Baltrip-Reyes',
+        {
+          name: 'Hilary JAEN',
+          img: 'https://digitalhub.fifa.com/transform/227e4be5-53f5-41c5-b435-b7261e55bdf7/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Wendy NATIS',
+          img: 'https://digitalhub.fifa.com/transform/a0d23e6e-27eb-4695-9392-255d198a195d/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Katherine CASTILLO',
+          img: 'https://digitalhub.fifa.com/transform/1ddd523d-06ae-4636-84b4-abacb4d20222/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Yomira PINZON',
+          img: 'https://digitalhub.fifa.com/transform/ed67d282-d68d-4c67-9325-a7eee62e347c/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rosario VARGAS',
+          img: 'https://digitalhub.fifa.com/transform/8a5b012f-3afc-4de6-b844-4055825cc79b/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Rebeca ESPINOSA',
+          img: 'https://digitalhub.fifa.com/transform/66de7cfd-c442-4e63-891c-7a0cfc3fa6a1/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Nicole DE OBALDIA',
+          img: 'https://digitalhub.fifa.com/transform/747683bb-86c1-48ab-b91a-0633d7753205/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Carina BALTRIP-REYES',
+          img: 'https://digitalhub.fifa.com/transform/bcca993c-3fd6-4626-9bd3-43acdf7f1c1a/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
       midfield: [
-        'Deysiré Salazar',
-        'Emily Cedeño',
-        'Schiandra González',
-        'Marta Cox',
-        'Natalia Mills',
-        'Carmen Montenegro',
-        'Laurie Batista',
-        'Erika Hernández',
-        'Aldrith Quintero',
+        {
+          name: 'Deysire SALAZAR',
+          img: 'https://digitalhub.fifa.com/transform/db241c24-de96-4ea9-8516-0a7adaf0eaf0/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Emily CEDENO',
+          img: 'https://digitalhub.fifa.com/transform/280d3cb9-4f8f-4e87-8909-e25140ecbe4a/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Schiandra GONZALEZ',
+          img: 'https://digitalhub.fifa.com/transform/d5087d6f-d379-4a37-b2aa-3f24a0c5d375/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Marta COX',
+          img: 'https://digitalhub.fifa.com/transform/9e7a3250-cdc5-4e1e-b710-e73202e63ad4/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Natalia MILLS',
+          img: 'https://digitalhub.fifa.com/transform/de45a7d9-c6dc-46ee-8984-75dec5916e59/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Carmen MONTENEGRO',
+          img: 'https://digitalhub.fifa.com/transform/a51b9afa-2111-450f-8b4b-b5190df6680b/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Laurie BATISTA',
+          img: 'https://digitalhub.fifa.com/transform/f489000f-b821-48de-97ee-3d338e09f2f2/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Aldrith QUINTERO',
+          img: 'https://digitalhub.fifa.com/transform/c52b0727-4bf5-40b5-81c3-860ce8d9fae0/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
       ],
-      attacker: ['Karla Riley', 'Riley Tanner', 'Lineth Cedeño'],
+      attacker: [
+        {
+          name: 'Karla RILEY',
+          img: 'https://digitalhub.fifa.com/transform/30ced751-940d-4e5a-ab94-f936e9edfdb1/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Riley TANNER',
+          img: 'https://digitalhub.fifa.com/transform/1e6f91f9-4dce-4845-b937-1bf14bd39d68/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Erika HERNANDEZ',
+          img: 'https://digitalhub.fifa.com/transform/f5e55def-7f22-4647-913c-3359906ddf6d/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+        {
+          name: 'Lineth CEDENO',
+          img: 'https://digitalhub.fifa.com/transform/55c58852-b5e5-4fb9-9802-30d920ad16fc/Panama-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,width:792,height:900',
+        },
+      ],
       coach: 'Ignacio Quintana',
     },
   },
