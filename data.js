@@ -2854,34 +2854,110 @@ const teams = [
     population: 59308690,
     flag: 'https://flagcdn.com/za.svg',
     players: {
-      goalkeeper: ['Andile Dlamini', 'Kaylin Swart', 'Kebotseng Moletsane'],
+      goalkeeper: [
+        {
+          name: 'Kaylin SWART',
+          img: 'https://digitalhub.fifa.com/transform/143dad22-1e38-49e7-b138-39c0ec8afe63/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Andile DLAMINI',
+          img: 'https://digitalhub.fifa.com/transform/c51f1f25-82aa-44b0-85b1-4e4958c97046/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Kebotseng MOLETSANE',
+          img: 'https://digitalhub.fifa.com/transform/417a7811-3fa4-41b0-94cd-13e2937b10d7/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        'Karabo Dhlamini',
-        'Fikilie Magama',
-        'Lebohang Ramalepe',
-        'Tiisetso Makhubela',
-        'Noko Matlou',
-        'Bambanani Mbane',
-        'Bongeka Gamede',
+        {
+          name: 'Lebohang RAMALEPE',
+          img: 'https://digitalhub.fifa.com/transform/8a616bd4-9772-4b4b-88e5-59dee9db0980/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Bongeka GAMEDE',
+          img: 'https://digitalhub.fifa.com/transform/2fa3d70c-a71a-4d1b-a9cb-bd7506d13157/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Noko MATLOU',
+          img: 'https://digitalhub.fifa.com/transform/ab9b7ee1-1943-4a45-9b9f-96e92f64fff4/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Fikile MAGAMA',
+          img: 'https://digitalhub.fifa.com/transform/f7473584-b513-416c-925d-1007bf83195c/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Karabo DHLAMINI',
+          img: 'https://digitalhub.fifa.com/transform/99d448f0-983a-4f68-bd99-3f6e5a420a9a/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Bambanani MBANE',
+          img: 'https://digitalhub.fifa.com/transform/9a627400-6fe9-4ae2-81b9-28d37771c9bb/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Tiisetso MAKHUBELA',
+          img: 'https://digitalhub.fifa.com/transform/568b0111-f5a2-4d37-872d-6309ecdebba4/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Sibulele HOLWENI',
+          img: 'https://digitalhub.fifa.com/transform/51a23da3-1b57-440a-8f83-0a602b6de2d6/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        'Kholosa Biyana',
-        'Refiloe Jane',
-        'Sibulele Holweni',
-        'Linda Motlhalo',
-        'Nomvula Kgoale',
-        'Robyn Moodaly',
+        {
+          name: 'Noxolo CESANE',
+          img: 'https://digitalhub.fifa.com/transform/0a20c41d-f51b-4540-a2bf-3204d016cad3/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Gabriela SALGADO',
+          img: 'https://digitalhub.fifa.com/transform/b48256a8-70d5-49d2-b00b-f667c559c12c/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Linda MOTLHALO',
+          img: 'https://digitalhub.fifa.com/transform/7970ab67-d5e8-4bf2-b809-3105e6027339/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Refiloe JANE',
+          img: 'https://digitalhub.fifa.com/transform/2d1595eb-d146-43da-ae48-b68d71eca337/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Kholosa BIYANA',
+          img: 'https://digitalhub.fifa.com/transform/cd99ef68-650e-4b02-97c2-cd90ae5297fc/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Robyn MOODALY',
+          img: 'https://digitalhub.fifa.com/transform/a534da36-bc82-4be4-9453-189b8e3d8e47/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Mapula KGOALE',
+          img: 'https://digitalhub.fifa.com/transform/eea5cbee-6f6c-4a0f-8023-2cbbbfb00106/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Wendy SHONGWE',
+          img: 'https://digitalhub.fifa.com/transform/7a947dea-9fb3-452b-86d2-85186e4a9cc5/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Gabriela Salgado',
-        'Jermaine Seoposenwe',
-        'Noxolo Cesane',
-        'Melinda Kgadiete',
-        'Wendy Shongwe',
-        'Hildah Magaia',
-        'Thembi Kgantlana',
+        {
+          name: 'Hildah MAGAIA',
+          img: 'https://digitalhub.fifa.com/transform/b38c8045-e4fe-4ce2-803a-6f2bfe6199d9/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Thembi KGATLANA',
+          img: 'https://digitalhub.fifa.com/transform/46dfa63f-f10c-4251-8b4c-540631308635/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Jermaine SEOPOSENWE',
+          img: 'https://digitalhub.fifa.com/transform/d17a8cea-1647-4941-8b04-98922af73191/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Melinda KGADIETE',
+          img: 'https://digitalhub.fifa.com/transform/b5ada488-5888-4644-96ce-8bab139bb4ed/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Desiree Ellis',
+      coach: {
+        name: 'Desiree Ellis',
+        img: 'https://digitalhub.fifa.com/transform/72c638f6-36ef-4810-bd2d-e366e4c0f45b/South-Africa-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
   {
