@@ -2740,34 +2740,110 @@ const teams = [
     population: 4994724,
     flag: 'https://flagcdn.com/ie.svg',
     players: {
-      goalkeeper: ['Courtney Brosnan', 'Grace Moloney', 'Megan Walsh'],
+      goalkeeper: [
+        {
+          name: 'Courtney BROSNAN',
+          img: 'https://digitalhub.fifa.com/transform/1761ac22-58e8-4d6d-8a17-ec08b73d3bbd/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Grace MOLONEY',
+          img: 'https://digitalhub.fifa.com/transform/33d1d17e-50e4-45a8-b6a8-a33bc4174376/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Megan WALSH',
+          img: 'https://digitalhub.fifa.com/transform/640d7618-4549-40f0-b748-7d48560a02e9/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        "Aine O'Gorman",
-        'Niamh Fahey',
-        'Louise Quinn',
-        'Diane Caldwell',
-        'Heather Payne',
-        "Claire O'Riordan",
-        'Chloe Mustaki',
-        'Isibeal Atkinson',
+        {
+          name: 'Claire ORIORDAN',
+          img: 'https://digitalhub.fifa.com/transform/1d0ec6ea-63e6-4804-89f8-631774af8bcb/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Louise QUINN',
+          img: 'https://digitalhub.fifa.com/transform/26bec165-f6e7-4f93-8c1a-2a6ab51ba57a/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Niamh FAHEY',
+          img: 'https://digitalhub.fifa.com/transform/b1aa5112-5e79-4a3b-9859-e617179a8736/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Diane CALDWELL',
+          img: 'https://digitalhub.fifa.com/transform/d54dc344-be5a-47ae-a1b5-aa4f89f6918c/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Aine OGORMAN',
+          img: 'https://digitalhub.fifa.com/transform/e8deedea-dd12-4397-af0f-af6339c499c4/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        "Denise O'Sullivan",
-        'Katie McCabe',
-        'Ruesha Littlejohn',
-        'Megan Connolly',
-        'Ciara Grant',
-        'Lucy Quinn',
-        'Lily Agg',
-        'Sinead Farrelly',
+        {
+          name: 'Chloe MUSTAKI',
+          img: 'https://digitalhub.fifa.com/transform/8c45d3d1-ca53-43c6-9b12-fbbc21db8283/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Megan CONNOLLY',
+          img: 'https://digitalhub.fifa.com/transform/7df66502-b938-42b1-9ade-4b0a5d85bf46/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Ruesha LITTLEJOHN',
+          img: 'https://digitalhub.fifa.com/transform/1423eece-d7fd-4f66-9cb4-98bb48533466/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Denise OSULLIVAN',
+          img: 'https://digitalhub.fifa.com/transform/6bd5e142-b50f-4b98-a0e8-6d514a8858aa/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Katie McCABE',
+          img: 'https://digitalhub.fifa.com/transform/78737b87-7454-41bd-b3c7-fd235f7d04a7/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lily AGG',
+          img: 'https://digitalhub.fifa.com/transform/76902cfa-b274-40fd-aa61-e6a925916bba/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lucy QUINN',
+          img: 'https://digitalhub.fifa.com/transform/8957e73f-2f46-4b7e-bdfc-38a2ce04ddc3/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Sinead FARRELLY',
+          img: 'https://digitalhub.fifa.com/transform/07cfc113-6f45-4cca-9e98-4cf71016a69a/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Marissa SHEVA',
+          img: 'https://digitalhub.fifa.com/transform/bec86c73-50c2-47cd-a01c-1c2abe20f131/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Ciara GRANT',
+          img: 'https://digitalhub.fifa.com/transform/0a05e845-f6d6-43dd-87a6-80f2662e9f4c/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Isibeal ATKINSON',
+          img: 'https://digitalhub.fifa.com/transform/1a018197-8e5c-4639-a50f-843ed9589d46/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Amber Barrett',
-        'Kyra Carusa',
-        'Abbie Larkin',
-        'Marissa Sheva',
+        {
+          name: 'Amber BARRETT',
+          img: 'https://digitalhub.fifa.com/transform/3e9e66a3-3544-4d22-9fdf-e5097024c1e1/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Heather PAYNE',
+          img: 'https://digitalhub.fifa.com/transform/7007c5ba-2a1c-4ff1-ae58-0aa7e9075f30/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Kyra CARUSA',
+          img: 'https://digitalhub.fifa.com/transform/cfe4e3fa-949f-4d22-8e86-afe19670a031/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Abbie LARKIN',
+          img: 'https://digitalhub.fifa.com/transform/e63faf8d-0f03-4593-a14a-e611128e112d/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Vera Pauw',
+      coach: {
+        name: 'Vera Pauw',
+        img: 'https://digitalhub.fifa.com/transform/e2e02141-7dbf-4fe5-9e6b-eef4ca450acd/Republic-of-Ireland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
   {
