@@ -3196,34 +3196,110 @@ const teams = [
     population: 8636896,
     flag: 'https://flagcdn.com/ch.svg',
     players: {
-      goalkeeper: ['Gaëlle Thalmann', 'Seraina Friedli', 'Livia Peng'],
+      goalkeeper: [
+        {
+          name: 'Gaelle THALMANN',
+          img: 'https://digitalhub.fifa.com/transform/ec2ef576-1666-4507-9c1d-26ebb5ae3dda/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Livia PENG',
+          img: 'https://digitalhub.fifa.com/transform/c7aea0a2-f113-4a1c-8b32-03479ffbe14e/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Seraina FRIEDLI',
+          img: 'https://digitalhub.fifa.com/transform/36848fdc-b1d1-41d1-a454-7bd93cb55c5c/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        'Noelle Maritz',
-        'Eseosa Algbogun',
-        'Viola Calligaris',
-        'Luana Bühler',
-        'Julia Stierli',
-        'Lara Marti',
-        'Nadine Riesen',
-        'Laura Felber',
+        {
+          name: 'Julia STIERLI',
+          img: 'https://digitalhub.fifa.com/transform/3b9fce5a-3543-4bf7-94f4-b23d14e66961/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lara MARTI',
+          img: 'https://digitalhub.fifa.com/transform/59d32567-944b-4955-ba52-58602800cc88/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Laura FELBER',
+          img: 'https://digitalhub.fifa.com/transform/2de0c1b6-3ff6-4b8b-85de-c5d635e9c930/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Noelle MARITZ',
+          img: 'https://digitalhub.fifa.com/transform/9e89e217-4109-4bee-b2ed-1851412d8b2c/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Nadine RIESEN',
+          img: 'https://digitalhub.fifa.com/transform/5066789a-fe9a-484d-84c3-ce185ac04dd8/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Marion REY',
+          img: 'https://digitalhub.fifa.com/transform/50cbfa43-8ab0-46fd-a791-4844c6a6ff79/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Luana BUEHLER',
+          img: 'https://digitalhub.fifa.com/transform/f73ab89a-ffce-46d9-b4dc-960131c5799f/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Viola CALLIGARIS',
+          img: 'https://digitalhub.fifa.com/transform/4dbd97ff-6799-4887-813b-0c3b5ee88a79/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Eseosa AIGBOGUN',
+          img: 'https://digitalhub.fifa.com/transform/54c9c1ac-b25c-448a-869a-886eb39173d1/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        'Lia Wälti',
-        'Géraldine Reuteler',
-        'Coumba Sow',
-        'Sandrine Mauron',
-        'Seraina Plubel',
-        'Marion Rey',
-        'Iman Beney',
+        {
+          name: 'Geraldine REUTELER',
+          img: 'https://digitalhub.fifa.com/transform/b35ce1a9-ab86-4525-9fa6-fee7778f5f88/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Amira ARFAOUI',
+          img: 'https://digitalhub.fifa.com/transform/fe014361-7887-4e1a-89d3-db5aa625e20d/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Coumba SOW',
+          img: 'https://digitalhub.fifa.com/transform/37f8df36-3bd0-4319-bc46-8b4f46120b66/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lia WAELTI',
+          img: 'https://digitalhub.fifa.com/transform/8f42e472-723a-43b7-8f44-dcab2d3119ae/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Sandrine MAURON',
+          img: 'https://digitalhub.fifa.com/transform/eaa0c07d-b32f-4fb6-833c-56edc5519c7f/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Seraina PIUBEL',
+          img: 'https://digitalhub.fifa.com/transform/12f71ebf-6b40-4900-80f5-1c9a6cb91f3d/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Ana Crnogorcevic',
-        'Ramona Bachmann',
-        'Fabienne Humm',
-        'Alisha Lehmann',
-        'Meriame Terchoun',
+        {
+          name: 'Ana Maria CRNOGORCEVIC',
+          img: 'https://digitalhub.fifa.com/transform/f25b760f-bca8-4a44-8917-d0862bb45424/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Ramona BACHMANN',
+          img: 'https://digitalhub.fifa.com/transform/bcd33eb5-1cb5-4104-9bf1-ee72371eb5d1/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Fabienne HUMM',
+          img: 'https://digitalhub.fifa.com/transform/fde69d10-f259-4f58-8bea-3b1f8dcef324/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Meriame TERCHOUN',
+          img: 'https://digitalhub.fifa.com/transform/3f0e1b90-0b23-455c-a064-928f053dd4d2/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Alisha LEHMANN',
+          img: 'https://digitalhub.fifa.com/transform/7adc82d7-8ffa-4fed-abd8-8cc50fd33852/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Inka Grings',
+      coach: {
+        name: 'Inka Grings',
+        img: 'https://digitalhub.fifa.com/transform/51e42dff-a36b-48d7-9580-2db2128573a9/Switzerland-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
   {
