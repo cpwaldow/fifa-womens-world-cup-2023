@@ -2968,34 +2968,110 @@ const teams = [
     population: 47351567,
     flag: 'https://flagcdn.com/es.svg',
     players: {
-      goalkeeper: ['Misa Rodriguez', 'Enith Salón', 'Cata Coll'],
+      goalkeeper: [
+        {
+          name: 'Misa RODRIGUEZ',
+          img: 'https://digitalhub.fifa.com/transform/323fdf70-fdd7-433d-9c60-1b83bd5c1dfb/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Enith SALON',
+          img: 'https://digitalhub.fifa.com/transform/5402ac64-7fde-4fa6-b395-6ed0f7de4e47/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Cata COLL',
+          img: 'https://digitalhub.fifa.com/transform/a04c0c80-59a5-45df-a3f0-db93ae8c2d9e/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        'Ivana Andrés',
-        'Ona Batlle',
-        'Olga Carmona',
-        'Laia Codina',
-        'Rocío Gálvez',
-        'Oihane Hernández',
-        'Irene Paredes',
+        {
+          name: 'Ona BATLLE',
+          img: 'https://digitalhub.fifa.com/transform/85397789-fffb-400c-a2b9-ca873715c44b/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Irene PAREDES',
+          img: 'https://digitalhub.fifa.com/transform/74df8e06-6629-469c-b905-05f8cd4776f4/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Ivana ANDRES',
+          img: 'https://digitalhub.fifa.com/transform/91f65ec8-0af9-427d-9ea7-893b940b0232/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Oihane HERNANDEZ',
+          img: 'https://digitalhub.fifa.com/transform/ee00cb6c-0c50-4891-bfca-06832b84a281/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Laia CODINA',
+          img: 'https://digitalhub.fifa.com/transform/ea0243c1-96f3-4d22-8d2c-c5d1ea1094dd/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Olga CARMONA',
+          img: 'https://digitalhub.fifa.com/transform/730c73e3-8669-4f98-aae4-467154ac0f04/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Rocio GALVEZ',
+          img: 'https://digitalhub.fifa.com/transform/7610ce04-aeac-4203-b398-f68568fd7eb3/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        'Tere Abelleira',
-        'Aitana Bonmatí',
-        'Irene Guerrero',
-        'Jenni Hermoso',
-        'María Pérez',
-        'Alexia Putellas',
-        'Claudia Zornoza',
+        {
+          name: 'Teresa ABELLEIRA',
+          img: 'https://digitalhub.fifa.com/transform/10b7efd2-5913-4cf3-ad73-583d8507ee4e/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Aitana BONMATI',
+          img: 'https://digitalhub.fifa.com/transform/95aa42d4-26b6-40c8-823f-4f914fe1820a/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Irene GUERRERO',
+          img: 'https://digitalhub.fifa.com/transform/a45e5098-8f0d-4425-8cf4-411a689837a4/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Alexia PUTELLAS',
+          img: 'https://digitalhub.fifa.com/transform/b621ce67-7acb-4916-bc9a-d0f1a5ae31dc/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Maria PEREZ',
+          img: 'https://digitalhub.fifa.com/transform/02a1ec1e-a06a-46a8-a4b1-38481b4ffd46/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Claudia ZORNOZA',
+          img: 'https://digitalhub.fifa.com/transform/e15338f7-29f0-4486-a57f-346f913ecc04/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Mariona Caldentey',
-        'Athenea del Castillo',
-        'Esther González',
-        'Eva Navarro',
-        'Salma Paralluelo',
-        'Alba Redondo',
+        {
+          name: 'Mariona CALDENTEY',
+          img: 'https://digitalhub.fifa.com/transform/85f63e4d-ee74-4f66-bd1e-f4fcafe09a13/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Esther GONZALEZ',
+          img: 'https://digitalhub.fifa.com/transform/bbb47b03-0192-4e30-9450-88f050536889/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Jennifer HERMOSO',
+          img: 'https://digitalhub.fifa.com/transform/198c08c8-3bba-4678-8ffa-c1978f7da8b0/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Eva NAVARRO',
+          img: 'https://digitalhub.fifa.com/transform/f0dd755c-d776-4dcc-91c0-cb00dac2f142/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Alba REDONDO',
+          img: 'https://digitalhub.fifa.com/transform/158892f5-5838-4379-bbed-29e4ee8c6267/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Salma PARALLUELO',
+          img: 'https://digitalhub.fifa.com/transform/b3663e79-9fe7-4c99-9def-fa28f1447dc5/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Athenea DEL CASTILLO',
+          img: 'https://digitalhub.fifa.com/transform/c6f3179c-f7e7-44a2-b2cb-9a5748a399a4/Spain-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Jorge Vilda',
+      coach: {
+        name: 'Jorge Vilda',
+        img: 'https://digitalhub.fifa.com/transform/9d561d76-9a78-4fa1-8402-fa082f220d41/ILDA-Jorge-322809?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
   {
