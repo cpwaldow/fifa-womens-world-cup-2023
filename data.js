@@ -3082,34 +3082,110 @@ const teams = [
     population: 10353442,
     flag: 'https://flagcdn.com/se.svg',
     players: {
-      goalkeeper: ['Jennifer Falk', 'Zecira Musovic', 'Tove Enblom'],
+      goalkeeper: [
+        {
+          name: 'Zecira MUSOVIC',
+          img: 'https://digitalhub.fifa.com/transform/c4ad7a34-8b2f-42c5-a58c-b9bcc80a4a4e/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Jennifer FALK',
+          img: 'https://digitalhub.fifa.com/transform/700cf1fe-c28a-4972-a653-f433cb60ad8c/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Tove ENBLOM',
+          img: 'https://digitalhub.fifa.com/transform/0b25d5fa-f49b-4112-a486-7c97d0182be3/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        'Linda Sembrant',
-        'Magdalena Eriksson',
-        'Jonna Andersson',
-        'Amanda Ilestedt',
-        'Nathalie Björn',
-        'Hanna Lundkvist',
-        'Anna Sandberg',
+        {
+          name: 'Jonna ANDERSSON',
+          img: 'https://digitalhub.fifa.com/transform/0d769ea8-60dd-404e-b79d-5258c27f4edf/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Linda SEMBRANT',
+          img: 'https://digitalhub.fifa.com/transform/912eb243-cd08-4891-9875-68447a84b3fe/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Stina LENNARTSSON',
+          img: 'https://digitalhub.fifa.com/transform/a5a5195f-f30a-4063-8084-63890b65b297/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Anna SANDBERG',
+          img: 'https://digitalhub.fifa.com/transform/5dcf8685-c769-4dc9-a1c3-5f098e547f01/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Magdalena ERIKSSON',
+          img: 'https://digitalhub.fifa.com/transform/6473b58e-3358-49d9-afd6-5c7cd0955555/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Amanda ILESTEDT',
+          img: 'https://digitalhub.fifa.com/transform/f9254009-2761-45fd-b8aa-f2330710c0b9/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Nathalie BJORN',
+          img: 'https://digitalhub.fifa.com/transform/55034674-0dba-49e9-ad32-09021e319767/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        'Caroline Seger',
-        'Kosovare Asllani',
-        'Olivia Schough',
-        'Elin Rubensson',
-        'Filippa Angeldahl',
-        'Hanna Bennison',
-        'Johanna Rytting Kaneryd',
+        {
+          name: 'Kosovare ASLLANI',
+          img: 'https://digitalhub.fifa.com/transform/e5ec9909-cfd2-459e-9dfa-9088b38740fc/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Filippa ANGELDAL',
+          img: 'https://digitalhub.fifa.com/transform/f06d14fe-0176-4e48-aebf-12ec10e52fba/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Caroline SEGER',
+          img: 'https://digitalhub.fifa.com/transform/604c0926-3905-4dc8-b96e-ae9499585a6c/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Fridolina ROLFO',
+          img: 'https://digitalhub.fifa.com/transform/0538cec4-7229-4ceb-9e45-e8d24c408ea1/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Johanna KANERYD',
+          img: 'https://digitalhub.fifa.com/transform/2a8ffccf-14f1-4276-86b6-48792b8584a1/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Hanna BENNISON',
+          img: 'https://digitalhub.fifa.com/transform/20f283b5-b58a-47ce-b2b2-6d46d12734b5/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Olivia SCHOUGH',
+          img: 'https://digitalhub.fifa.com/transform/034e65d2-6201-493d-a417-1e3153d547b4/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Elin RUBENSSON',
+          img: 'https://digitalhub.fifa.com/transform/84f7adbf-9e47-4799-9a21-4a8d9f08d6c2/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Sofia Jakobsson',
-        'Stina Blackstenius',
-        'Fridolina Rolfö',
-        'Lina Hurtig',
-        'Madelen Janogy',
-        'Rebecka Blomqvist',
+        {
+          name: 'Madelen JANOGY',
+          img: 'https://digitalhub.fifa.com/transform/e2285e32-fced-4eb1-af71-bd1d20897101/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lina HURTIG',
+          img: 'https://digitalhub.fifa.com/transform/30194806-8db1-4b78-b768-9ece5a0b805c/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Sofia JAKOBSSON',
+          img: 'https://digitalhub.fifa.com/transform/547da2d4-767e-4527-9f2f-38f74f0c497c/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Stina BLACKSTENIUS',
+          img: 'https://digitalhub.fifa.com/transform/295ba2ba-eee8-43f7-9d6d-1bf30141b447/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Rebecka BLOMQVIST',
+          img: 'https://digitalhub.fifa.com/transform/bbfdc0db-df00-43d4-a27a-92775e1d52e2/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Peter Gerhardsson',
+      coach: {
+        name: 'Peter Gerhardsson',
+        img: 'https://digitalhub.fifa.com/transform/a96e1128-3bc4-4255-a70e-616467d419fc/Sweden-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
   {
