@@ -3310,34 +3310,110 @@ const teams = [
     population: 329484123,
     flag: 'https://flagcdn.com/us.svg',
     players: {
-      goalkeeper: ['Alyssa Naeher', 'Casey Murphy', 'Aubrey Kingsbury'],
+      goalkeeper: [
+        {
+          name: 'Alyssa NAEHER',
+          img: 'https://digitalhub.fifa.com/transform/135dfedc-f634-4c8a-b961-a5984a2682bb/NAEHER-Alyssa-301016-10QLGN3?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Casey MURPHY',
+          img: 'https://digitalhub.fifa.com/transform/aeb2093c-69cb-41de-9032-ada860eb5e5f/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Aubrey KINGSBURY',
+          img: 'https://digitalhub.fifa.com/transform/6bc61833-7b80-486c-aeb1-8bd8a276f2e2/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        'Sofia Herta',
-        'Naomi Girma',
-        "Kelley O'Hara",
-        'Alana Cook',
-        'Emily Sonnett',
-        'Crystal Dunn',
-        'Emily Fox',
+        {
+          name: 'Sofia HUERTA',
+          img: 'https://digitalhub.fifa.com/transform/17ad7227-b240-411c-b084-eae35e1e4a7c/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Naomi GIRMA',
+          img: 'https://digitalhub.fifa.com/transform/2968a425-8fad-4eb5-a7e5-0e5c0bd6eb90/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Kelley OHARA',
+          img: 'https://digitalhub.fifa.com/transform/982d6626-1d4c-452b-b97b-abab345724e6/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Alana COOK',
+          img: 'https://digitalhub.fifa.com/transform/66b59d20-187b-437f-a6ae-8755c752403e/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Emily SONNETT',
+          img: 'https://digitalhub.fifa.com/transform/def0142c-d156-40db-ad82-d20c7477e11d/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Crystal DUNN',
+          img: 'https://digitalhub.fifa.com/transform/2dada080-8eac-4b76-9abd-238defa47c7b/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Emily FOX',
+          img: 'https://digitalhub.fifa.com/transform/6477841e-bc1a-4ff7-9996-a32e8fe158a8/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        'Ashley Sanchez',
-        'Julie Ertz',
-        'Savannah DeMelo',
-        'Lindsey Horan',
-        'Rose Lavelle',
-        'Andi Sullivan',
-        'Kristie Mewis',
+        {
+          name: 'Ashley SANCHEZ',
+          img: 'https://digitalhub.fifa.com/transform/925170eb-58b0-4f6f-a052-952fca3c5a39/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Julie ERTZ',
+          img: 'https://digitalhub.fifa.com/transform/c9094338-899f-4e8a-9176-92d4a1ef84f4/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Savannah DEMELO',
+          img: 'https://digitalhub.fifa.com/transform/0643d79a-eff0-4e89-ba4c-fd7d2d00f38a/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lindsey HORAN',
+          img: 'https://digitalhub.fifa.com/transform/222c182e-3428-472c-a558-eb0c2d6c9c32/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Rose LAVELLE',
+          img: 'https://digitalhub.fifa.com/transform/df3eae2d-bbc4-4657-b434-18ecf8ad702b/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Andi SULLIVAN',
+          img: 'https://digitalhub.fifa.com/transform/c13a8778-89a4-45e1-bc6c-146536fcb82c/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Kristie MEWIS',
+          img: 'https://digitalhub.fifa.com/transform/f8e05754-eb4f-4c96-b312-2eca7f039a06/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Lynn Williams',
-        'Alyssa Thompson',
-        'Sophia Smith',
-        'Alex Morgan',
-        'Megan Rapinoe',
-        'Trinity Rodman',
+        {
+          name: 'Lynn WILLIAMS',
+          img: 'https://digitalhub.fifa.com/transform/8c035a85-408b-47cf-af65-630f948bf319/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Alyssa THOMPSON',
+          img: 'https://digitalhub.fifa.com/transform/9a24d1bf-5271-4582-ad46-ac84df906686/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Sophia SMITH',
+          img: 'https://digitalhub.fifa.com/transform/2d747e1b-cdef-46e3-8c86-f8d80dbaf2ae/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Alex MORGAN',
+          img: 'https://digitalhub.fifa.com/transform/532bbc89-905f-4fee-82db-319c64265ce6/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Megan RAPINOE',
+          img: 'https://digitalhub.fifa.com/transform/46bec190-87d0-4996-aa9e-52fe3da0ef95/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Trinity RODMAN',
+          img: 'https://digitalhub.fifa.com/transform/6c33815c-907b-4a27-80a4-83c24e9d6588/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Vlatko Andonovski',
+      coach: {
+        name: 'Vlatko Andonovski',
+        img: 'https://digitalhub.fifa.com/transform/5ff3c421-fb46-4479-9f75-04e0c08d33f0/USA-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
   {
