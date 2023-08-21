@@ -3538,34 +3538,110 @@ const teams = [
     population: 18383956,
     flag: 'https://flagcdn.com/zm.svg',
     players: {
-      goalkeeper: ['Catherine Musonda', 'Eunice Sakala'],
+      goalkeeper: [
+        {
+          name: 'Catherine MUSONDA',
+          img: 'https://digitalhub.fifa.com/transform/ae6140ab-e454-4f33-bd1f-bbcd2a6dfa13/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Leticia LUNGU',
+          img: 'https://digitalhub.fifa.com/transform/ae923548-3444-4d0b-9766-2135bf25a124/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Eunice SAKALA',
+          img: 'https://digitalhub.fifa.com/transform/26194c41-01b4-47ba-9464-3d0ddff65888/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+      ],
       defender: [
-        'Margaret Belemu',
-        'Martha Tembo',
-        'Lushomo Mweemba',
-        'Agness Musase',
-        'Esther Banda',
-        'Judith Soko',
-        'Mary Mulenga',
-        'Vast Phiri',
+        {
+          name: 'Judith SOKO',
+          img: 'https://digitalhub.fifa.com/transform/7cf3445c-c7c7-4b72-8a78-11e3bcefeda8/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Lushomo MWEEMBA',
+          img: 'https://digitalhub.fifa.com/transform/3db0a2e0-17ee-4688-9832-5872346d73c2/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Mary MULENGA',
+          img: 'https://digitalhub.fifa.com/transform/8277f717-daf0-4ef6-aad3-eb986bdb5883/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Margaret BELEMU',
+          img: 'https://digitalhub.fifa.com/transform/6aa826ea-b8c5-44cb-ad77-080efc62417b/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Martha TEMBO',
+          img: 'https://digitalhub.fifa.com/transform/48b5faa9-32ac-42ad-852c-a87391516c25/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Agness MUSESA',
+          img: 'https://digitalhub.fifa.com/transform/41ad54f6-13ce-442b-aa24-c9162eae417e/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Esther BANDA',
+          img: 'https://digitalhub.fifa.com/transform/db60fd14-7b86-4b73-981d-92bbaa5fde07/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Vast PHIRI',
+          img: 'https://digitalhub.fifa.com/transform/9ee3b913-34a3-4a06-8853-acb1536d37de/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       midfield: [
-        'Ireen Lungu',
-        'Hellen Chanda',
-        'Evarine Katongo',
-        'Mary Wilombe',
-        'Susan Banda',
-        'Avell Chitundu',
+        {
+          name: 'Susan BANDA',
+          img: 'https://digitalhub.fifa.com/transform/2de8a1d8-7f4f-4687-99cc-5bad4b92bdad/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Mary WILOMBE',
+          img: 'https://digitalhub.fifa.com/transform/ee1bdc31-d53f-4cdb-ba6c-7b040f915e74/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Comfort SELEMANI',
+          img: 'https://digitalhub.fifa.com/transform/86cf0eab-9c84-49b5-85f3-42411c0bd5c2/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Evarine KATONGO',
+          img: 'https://digitalhub.fifa.com/transform/dff09e68-edf2-43eb-a8f2-a5ed048e4e8c/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Ireen LUNGU',
+          img: 'https://digitalhub.fifa.com/transform/3a6564b5-9a01-4413-8312-fb2c30e71860/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Avell CHITUNDU',
+          img: 'https://digitalhub.fifa.com/transform/276d4963-b11d-4cd3-b426-4613a7a9b0bc/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
       attacker: [
-        'Xiomara Mapepa',
-        'Ochumba Lubandji',
-        'Racheal Nachula',
-        'Grace Chanda',
-        'Racheal Kundananji',
-        'Barbra Banda',
+        {
+          name: 'Ochumba LUBANDJI',
+          img: 'https://digitalhub.fifa.com/transform/c488975e-a02e-44ee-a7f5-4e635ff81c46/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Hellen MUBANGA',
+          img: 'https://digitalhub.fifa.com/transform/54faa3c2-43d6-4b15-ad28-605f786b3ba7/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Barbra BANDA',
+          img: 'https://digitalhub.fifa.com/transform/7739756a-5bd5-4a35-ab52-74fce481915b/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Racheal KUNDANANJI',
+          img: 'https://digitalhub.fifa.com/transform/e703fc3a-c92b-40f2-b8b3-d160f0718042/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Siomala MAPEPA',
+          img: 'https://digitalhub.fifa.com/transform/5814e57a-5a27-42dd-ac32-a859a46d1cf4/MAPEPA-Siomala-430884-14RPTF1?io=transform:fill,aspectratio:1x1&quality=75',
+        },
+        {
+          name: 'Hellen CHANDA',
+          img: 'https://digitalhub.fifa.com/transform/613f456d-845d-442b-831c-ace41252decf/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+        },
       ],
-      coach: 'Bruce Mwape',
+      coach: {
+        name: 'Bruce Mwape',
+        img: 'https://digitalhub.fifa.com/transform/f5a9c7d1-f247-4399-856d-5c8cb5237638/Zambia-Portraits-FIFA-Women-s-World-Cup-Australia-New-Zealand-2023?io=transform:fill,aspectratio:1x1&quality=75',
+      },
     },
   },
 ];
